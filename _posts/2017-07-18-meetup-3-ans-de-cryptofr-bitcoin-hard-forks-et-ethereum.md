@@ -15,11 +15,12 @@ Nous avions eu le temps de faire un retour d'expérience sur les arnaques dans l
 
 L'objet de ce meetup sera donc de discuter de Segregated Witness et des conséquences sur le réseau Bitcoin, ainsi que de faire un retour d'expérience sur le fork ETH/ETC et de discuter de ce que nous réserve Ethereum à l'avenir (Metropolis, Casper, le sharding...).
 
-Le programme est le suivant <i>(sujet à modification)</i> :
+Le programme est le suivant&nbsp;<i>(sujet à modification)</i>&nbsp;:
 <ul>
- 	<li>Qu'est-ce que Segregated Witness ? (<a href="https://bitcoin.fr/entretien-avec-nicolas-bacca/">Nicolas Bacca</a>)</li>
- 	<li>Bitcoin : Alors, est-ce que çà forke ? (<a href="https://bitcoin.fr/entretien-avec-nicolas-bacca/">Nicolas Bacca</a>)</li>
- 	<li>Le fork Ethereum &amp; Ethereum Classic (<a href="https://twitter.com/simonpolrot">Simon Polrot</a>)</li>
- 	<li>Un point sur Ethereum, ses amélioration à venir et sa communauté (<a href="https://twitter.com/simonpolrot">Simon Polrot</a> + ...)</li>
+	<li>Qu'est-ce que Segregated Witness ?&nbsp;(<a href="https://bitcoin.fr/entretien-avec-nicolas-bacca/">Nicolas Bacca</a>)</li>
+	<li>Bitcoin : Alors, est-ce que çà forke ? (<a href="https://bitcoin.fr/entretien-avec-nicolas-bacca/">Nicolas Bacca</a>)</li>
+	<li>Le fork Ethereum &amp; Ethereum Classic (<a href="https://twitter.com/simonpolrot">Simon Polrot</a>)</li>
+	<li>Un point sur Ethereum, ses amélioration à venir et sa communauté (<a href="https://twitter.com/simonpolrot">Simon Polrot</a> + ...)</li>
 </ul>
 </blockquote>
+Lien du Meetup : <a href="https://www.meetup.com/fr-FR/blockchains/events/241791451/">https://www.meetup.com/fr-FR/blockchains/events/241791451/</a>
