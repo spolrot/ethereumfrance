@@ -1,0 +1,76 @@
+---
+ID: 1118
+post_title: Quelle forme juridique pour une DAO ?
+author: Philippe Honigman
+post_excerpt: ""
+layout: post
+permalink: >
+  https://www.ethereum-france.com/quelle-forme-juridique-pour-une-dao/
+published: true
+post_date: 2016-06-28 15:17:51
+---
+<section class=" section--body">
+<div class="section-divider layoutSingleColumn"> <em>C</em><em class="markup--em markup--p-em">et article s’inscrit dans le cadre l’expérimentation freeftopia dont l’objectif est de transformer une startup en un commun reposant sur une organisation décentralisée. Plus d’infos sur freeftopia </em><a class="markup--anchor markup--p-anchor" href="https://medium.com/free-ftopia/free-ftopia-une-voie-vers-la-d%C3%A9centralisation-10660c492c59#.6onvpskuc"><em class="markup--em markup--p-em">ici</em></a><em class="markup--em markup--p-em"> et </em><a class="markup--anchor markup--p-anchor" href="http://freeftopia.org/index.php/fr/"><em class="markup--em markup--p-em">là</em></a><em class="markup--em markup--p-em">.</em></div>
+</section><section class=" section--body">
+<div class="section-divider layoutSingleColumn">
+
+<hr class="section-divider" />
+
+</div>
+<div class="section-content">
+<div class="section-inner layoutSingleColumn" style="text-align: center">
+<p class="graf--p" style="text-align: left">Nous initions ici une série d’articles dont l’objectif est d’éclairer les articulations possibles entre une gouvernance décentralisée qu’un programme informatique définit, automatise et impose — <strong class="markup--strong markup--p-strong">Decentralized Autonomous Organization</strong>, ou DAO -, et une forme d’organisation sociale reconnue comme <strong class="markup--strong markup--p-strong">personne morale</strong> et autorisée par la législation à contracter avec des tiers (société commerciale, association, coopérative, etc — intitulée PM dans la suite de cet article).</p>
+<p class="graf--p" style="text-align: left">Pour aller vite, une DAO peut se définir comme une application décentralisée (et donc non susceptible d’être contrôlée par un tiers) et dotée de fonds dont elle use selon des règles prédéfinies. Le concept de DAO a été <a class="markup--anchor markup--p-anchor" href="https://letstalkbitcoin.com/dac-revisited">introduit par Daniel Larimer</a> et <a class="markup--anchor markup--p-anchor" href="https://blog.ethereum.org/2014/05/06/daos-dacs-das-and-more-an-incomplete-terminology-guide/">popularisé par Vitalik Buterin</a>, le fondateur d’Ethereum. Plus récemment, le projet <a class="markup--anchor markup--p-anchor" href="https://daohub.org/">TheDAO</a> a été sous le feu des projecteurs. Dans un premier temps, TheDAO a réuni l’équivalent de $150m lors de sa souscription initiale, devenant ainsi l’opération de financement participatif la mieux dotée de l’histoire à ce jour. Moins de trois semaines plus tard, l’exploitation d’une vulnérabilité dans le code du projet a permis <a class="markup--anchor markup--p-anchor" href="https://www.ethereum-france.com/the-dao-retour-sur-12-tres-longues-heures/">le détournement de $50m</a>, mettant ainsi fin à l’expérience — au moins temporairement.</p>
+<p class="graf--p" style="text-align: left">Nous souhaitons préciser que l’expérimentation freeftopia ne consiste pas à créer une DAO en tant qu’instrument d’investissement, dans l’esprit de TheDAO. En revanche, les caractéristiques d’intangibilité, de transparence et d’ouverture d’une DAO en tant que système technique peuvent en faire un outil précieux au service d’une gouvernance décentralisée. C’est pourquoi nous avons entrepris d’examiner dans quelle mesure ce système pourrait être utilisé au sein du projet, en conformité avec les réglementations applicables à notre activité.</p>
+
+<h4 class="graf--h4" style="text-align: left">Les scénarios</h4>
+<p class="graf--p" style="text-align: left">Une problématique s’impose immédiatement : une DAO ne dispose pas de la personnalité juridique. Bien qu’elle soit constituée d’un ensemble de participants agissant comme une société, c’est à dire avec un projet commun ayant un but <em class="markup--em markup--p-em">a priori</em> lucratif, elle ne peut en tant que telle s’inscrire dans les cadres juridiques existants, s’enregistrer auprès d’un greffe et obtenir cette personnalité lui permettant d’agir avec les tiers dans les cadres juridiques existants.</p>
+<p class="graf--p" style="text-align: left">Dans ce contexte, il convient de clarifier son rôle, en relation avec la structure de pouvoir organisée par la volonté des parties faisant société.</p>
+<p class="graf--p" style="text-align: left">Dans le cas de TheDAO, le stratagème envisagé consistait à créer une structure <em class="markup--em markup--p-em">ad hoc</em>, visant à servir d’interface entre la DAO et les souscripteurs du fonds d’une part, et les fournisseurs de services bénéficiant des fonds d’autre part. Cette structure, appelée “DAO.Link” était basée en Suisse, dont la législation semble permettre des montages plus audacieux que les nôtres.</p>
+<p class="graf--p" style="text-align: left">Un tel scénario serait de toute façon inadéquat dans le cas de freeftopia. TheDAO visait à mettre en commun des fonds pour financer des projets à la fois profitables et utiles à l’éco-système d’Ethereum. Même s’il ne s’agissait pas d’un fonds d’investissement à proprement parler (puisque la DAO ne pouvait pas posséder pas de titres des sociétés qu’elle auraient financé), la structure avait été constituée dans une logique exclusivement financière.</p>
+<p class="graf--p" style="text-align: left">Dans le cas de freeftopia, nous envisageons de coder la gouvernance de la communauté, non pour donner un pouvoir à des investisseurs, mais pour <strong class="markup--strong markup--p-strong">assurer une juste rétribution et représentation des contributeurs</strong> du projet.</p>
+<p class="graf--p" style="text-align: left">Deux scénarios principaux se dessinent alors :</p>
+
+<ol class="postList">
+ 	<li class="graf--li" style="text-align: left">le “<strong class="markup--strong markup--li-strong">mirroring</strong>” : même répartition du pouvoir de décision au sein de la DAO et de la personnalité morale (PM)</li>
+ 	<li class="graf--li" style="text-align: left">la “<strong class="markup--strong markup--li-strong">délégation</strong>” : les actionnaires de la PM conviennent d’une délégation de prérogatives à la DAO</li>
+</ol>
+<h4 class="graf--h4" style="text-align: left">Mirroring</h4>
+<p class="graf--p" style="text-align: left">Ce cas s’apparente à ce qu’<a class="markup--anchor markup--p-anchor" href="http://otonomos.com/">Otonomos</a> a mis en place, dans certaines juridictions exotiques (Singapore, Hong-Kong, Iles Vierges Britanniques). L’idée générale est de modifier <strong class="markup--strong markup--p-strong">la composition de l’actionnariat</strong> afin qu’elle reflète le pourcentage de détention de tokens de la DAO.</p>
+<p class="graf--p" style="text-align: left">L’une des difficultés tient à la lourdeur et au coût des procédures de transfert et d’enregistrement des parts sociales, qui sont loin d’être aussi liquides que des jetons enregistrés sur une blockchain.</p>
+<p class="graf--p" style="text-align: left">L’offre d’Otonomos a pour but de masquer la complexité et de réduire le coût des opérations de réconciliation. Le choix des juridictions tient sans doute à la simplicité des procédures locales (outre les raisons fiscales).</p>
+<p class="graf--p" style="text-align: left">Il est probable que l’incorporation d’une DAO dans l’une de ces juridictions serait problématique, alors même que l’essentiel de l’activité économique est réalisée en France et en Union Européenne, notamment avec des clients du secteur public.</p>
+<p class="graf--p" style="text-align: left">Passer par un tiers de confiance pour enregistrer les modifications de détention du capital pose également un problème de principe. On réintroduit un tiers de confiance pour effectuer des opérations sensibles au nom de la DAO. Tout ça d’ailleurs pour créer une structure (la PM) qui agira en tant que tiers de confiance pour transiger avec les tiers de façon reconnue par une autorité nationale… Il est ironique de voir les tiers et les autorités surgir de partout, alors même qu’on tente de les éviter !</p>
+<p class="graf--p" style="text-align: left">La solution pour éviter ce tiers serait de disposer d’un moyen d’interfacer directement le code de la DAO au système d’information de l’Etat — un guichet unique permettant d’enregistrer les formalités des entreprises, accessible via une API ouverte. Et bien sûr, l’idéal serait que ces informations soient en fait stockées sur une blockchain, afin d’être immédiatement disponible à toutes les tierces-parties (administration, clients, fournisseurs, etc) intéressées. De là à y voir la possibilité de conférer aux formes sociales des personnalités morales la souplesse d’une DAO, au point de fusionner les deux modèles, il n’y a qu’un pas…. qu’il nous faudra quelques années encore avant de pouvoir franchir.</p>
+<p class="graf--p" style="text-align: left">En pratique, cette solution semble donc devoir être écartée en l’état du droit. Sa mise en oeuvre requiérerait en effet de trop grandes contraintes juridiques.</p>
+
+<h4 class="graf--h4" style="text-align: left">Délégation</h4>
+<p class="graf--p" style="text-align: left">Dans un schéma de gouvernance traditionnel, les décisions majeures relatives à l’organisation sont prises par les actionnaires, représentés par un conseil d’administration ou un conseil de surveillance, et par les dirigeants, représentants légaux de l’entreprise.</p>
+
+<figure class="graf--figure">
+<div class="aspectRatioPlaceholder is-locked">
+<div class="aspectRatioPlaceholder-fill">
+
+[caption id="attachment_1120" align="aligncenter" width="494"]<img class="wp-image-1120" src="https://www.ethereum-france.com/wp-content/uploads/2016/06/George_VI_knighting_General_Leese_Jul_1944-300x296.jpg" alt="George_VI_knighting_General_Leese_Jul_1944" width="494" height="487" /> Peut-on déléguer sans subordination ?[/caption]
+
+</div>
+</div>
+</figure>
+<p class="graf--p" style="text-align: left">Il est tentant d’assimiler la DAO à une entité douée de volonté propre — le “A” de “Autonomous” (auto-nome, qui se régit par ses propres lois) y invite -, et donc d’envisager des conflits potentiels entre cette entité et les autres instances décisionnelles de l’organisation. Il convient de rappeler que les décisions sont prises “via” la DAO plutôt que “par” la DAO, dénuée de personnalité juridique.</p>
+<p class="graf--p" style="text-align: left">En essence, la DAO est un système de règles établi par des humains, y compris les règles traitant de la manière de changer les règles (upgrades et forks). Il faut garder à l’esprit que les humains qui agissent par l’intermédiaire de la DAO restent responsables des choix qu’ils réalisent.</p>
+<p class="graf--p" style="text-align: left">Certaines formes juridiques, comme la SAS en France, autorisent une grande liberté de dispositions concernant la marche des affaires d’une organisation. Quelles sont donc les différences entre un système de règles librement choisi et formalisé dans les statuts de la société, et un système de règles tout aussi librement choisi et implémenté sous forme de programme informatique ?</p>
+<p class="graf--p" style="text-align: left">Selon nous, la différence essentielle tient à la combinaison de trois facteurs :</p>
+
+<ul class="postList" style="text-align: left">
+ 	<li class="graf--li">une DAO peut être conçue de façon à <strong class="markup--strong markup--li-strong">accueillir un nombre indéfini de participants</strong> selon des modalités très simplifiées par rapport à celles encadrant l’entrée au capital ou la nomination d’un mandataire social ; il est même possible d’être dans l’incapacité d’identifier précisément les participants… Cette ouverture radicale n’est pas vraiment une anomalie ; on est fondé de la considérer comme une caractéristique naturelle d’une DAO, même si en la matière aucune règle ne prévaut ;</li>
+ 	<li class="graf--li">les vues exprimées par les participants à la DAO peuvent être <strong class="markup--strong markup--li-strong">en désaccord avec celles des personnes légalement responsables</strong> et juridiquement habilitées à prendre des décisions au nom et à propos de la PM (actionnaires et dirigeants) ;</li>
+ 	<li class="graf--li">les détenteurs de tokens de la la DAO peuvent prendre par son intermédiaire des <strong class="markup--strong markup--li-strong">décisions collectives irréversibles</strong>, dont les conséquences pourraient engager la responsabilité des dirigeants ou contrevenir aux intérêts des actionnaires.</li>
+</ul>
+<p class="graf--p" style="text-align: left">Avec la DAO, on voit donc bien apparaitre un nouveau tiers (du moins dans la mesure où il n’y a pas de mirroring, qui reviendrait à assimiler les membres du DAO aux détenteurs du capital), une nouvelle instance de décision. On peut concevoir que les décisions prises via la DAO s’imposent aux actionnaires comme aux dirigeants. C’est en cela qu’il y a rupture — la décentralisation des décisions opérationnelles au sein d’organisations dites “libérées” (du management) ne bouleverse pas ce rapport de subordination avec la hiérarchie traditionnelle de la firme.</p>
+<p class="graf--p" style="text-align: left">Il convient donc d’adresser <strong class="markup--strong markup--p-strong">le risque que fait peser cette délégation à l’actionnaire et au représentant légal</strong>, les deux acteurs dont la responsabilité peut être engagée à la suite de décisions prises via la DAO, ainsi qu’aux membres de la DAO eux-mêmes. Ce sont les sujets auxquels nous nous intéresserons dans les prochains articles de cette série.</p>
+<p class="graf--p" style="text-align: left"><a class="markup--anchor markup--p-anchor" href="https://twitter.com/simonpolrot">Simon Polrot</a> &amp; <a class="markup--anchor markup--p-anchor" href="https://medium.com/@phil_h">Philippe Honigman</a></p>
+<p class="graf--p" style="text-align: left"><em class="markup--em markup--p-em">NB: </em><a class="markup--anchor markup--p-anchor" href="http://freeftopia.org"><em class="markup--em markup--p-em">freeftopia</em></a><em class="markup--em markup--p-em"> est une expérimentation ouverte à tous. Nous lirons avec intérêt et répondrons à vos remarques ici, bien entendu. Si vous souhaitez prendre une part plus active au projet, merci de nous contacter via </em><a class="markup--anchor markup--p-anchor" href="mailto:free@ftopia.com"><em class="markup--em markup--p-em">email</em></a><em class="markup--em markup--p-em">, </em><a class="markup--anchor markup--p-anchor" href="https://twitter.com/freeftopia"><em class="markup--em markup--p-em">Twitter</em></a><em class="markup--em markup--p-em"> ou </em><a class="markup--anchor markup--p-anchor" href="https://www.facebook.com/groups/1142958962382540/"><em class="markup--em markup--p-em">Facebook</em></a><em class="markup--em markup--p-em">.</em></p>
+
+</div>
+</div>
+</section>
