@@ -1,6 +1,6 @@
 ---
 ID: 2522
-post_title: '[Meetup] 3 ans de CryptoFR : Bitcoin, hard-forks et Ethereum &#8211; mercredi 26 juillet 2017'
+post_title: '[Meetup] 3 ans de CryptoFR : Bitcoin, hard-forks et Ethereum'
 author: Simon Polrot
 post_excerpt: ""
 layout: post
