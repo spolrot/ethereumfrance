@@ -24,9 +24,9 @@ Enfin, quelques mots de vocabulaire pour rappel :
  	<li>Worker/Rig = machine qui mine (le plus souvent, votre PC)</li>
 </ul>
 <h1><strong>Wallet</strong></h1>
-Pour miner de l’ether (ETH) en participant à la blockchain Ethereum, vous avez besoin d’un wallet sur lequel envoyer vos ether (0xD95DC4cf508fDDC108709556d0CD70e3F6369C90 par exemple). Si vous n’en avez pas encore, vous pouvez aller le <span style="text-decoration: underline"><a href="https://www.google.com/url?q=http://www.ethereum-france.com/creer-et-gerer-son-portefeuille-dether-en-2-minutes-avec-myetherwallet-com/&amp;sa=D&amp;ust=1460027167751000&amp;usg=AFQjCNGkP4Svg-lOydOBuauSSBjC2FK11g">créer ici</a></span>.
+Pour miner de l’ether (ETH) en participant à la blockchain Ethereum, vous avez besoin d’un wallet sur lequel envoyer vos ether (de type 0xD95DC4cf508fDDC10870...). Si vous n’en avez pas encore, vous pouvez aller le <span style="text-decoration: underline;"><a href="https://www.google.com/url?q=http://www.ethereum-france.com/creer-et-gerer-son-portefeuille-dether-en-2-minutes-avec-myetherwallet-com/&amp;sa=D&amp;ust=1460027167751000&amp;usg=AFQjCNGkP4Svg-lOydOBuauSSBjC2FK11g">créer ici</a></span>.
 
-Une fois votre wallet créé, vous n’êtes pas obligé de retourner sur le site du wallet pour connaitre votre solde et vos transactions, vous pouvez aller tout consulter sur des sites explorateurs de la blockchain, comme par exemple : <span style="text-decoration: underline"><a href="https://etherchain.org/">https://etherchain.org/</a></span> ou <span style="text-decoration: underline"><a href="https://etherscan.io/">https://etherscan.io/</a></span>. Dans l’outil de recherche, en haut à droite de ces sites, vous collez votre adresse de wallet et vous accéder à toutes les infos : solde, transactions.
+Une fois votre wallet créé, vous n’êtes pas obligé de retourner sur le site du wallet pour connaitre votre solde et vos transactions, vous pouvez aller tout consulter sur des sites explorateurs de la blockchain, comme par exemple : <span style="text-decoration: underline;"><a href="https://etherchain.org/">https://etherchain.org/</a></span> ou <span style="text-decoration: underline;"><a href="https://etherscan.io/">https://etherscan.io/</a></span>. Dans l’outil de recherche, en haut à droite de ces sites, vous collez votre adresse de wallet et vous accéder à toutes les infos : solde, transactions.
 <h1><strong>Avertissements préalables et aperçu rapide des risques financiers</strong></h1>
 Je préfère vous prévenir tout de suite : miner sur Ethereum est devenu incroyablement dur en moins de 2 ans. Quand j’ai commencé à miner il y a 1 an, je n’avais qu’une GTX970 et il ne me fallait que 3 jours pour cumuler 1ETH. Maintenant j’ai une GTX970, une R9 290 et une RX480 et un hashrate de 71.5MH/s. J’ai observé récemment :
 <ul>
@@ -49,20 +49,20 @@ Enfin, n’oubliez pas qu’à un moment donné <strong>Ethereum passera d'un sy
 <h1><strong>Matériel pour miner</strong></h1>
 Pour miner sur Ethereum il faut un ordinateur doté d’une carte graphique assez puissante et (actuellement) de 3Go minimum de mémoire vidéo. Il peut être important, si l’on se soucie de ses finances et que l’on paie son électricité, de choisir un matériel qui soit un minimum efficient (calcule vite mais consomme peu d’électricité). Moi je n’ai aucun ami qui travaille chez EDF, snif…
 
-Et pourquoi donc 3Go de mémoire vive embarquée me direz-vous ? En réalité, la mémoire vidéo est nécessaire pour charger un fichier nommé <span style="text-decoration: underline"><a href="https://github.com/ethereum/wiki/wiki/Ethash-DAG">DAG</a></span> qui va permettre de faire les calculs. Et ce fichier est actuellement supérieur à 2Go et grossit petit à petit selon une règle définie à l’avance. La prévision de son évolution de taille est la suivante :
-<p style="text-align: center">La limite de 2GB a été dépassée à la  mi-décembre 2016
+Et pourquoi donc 3Go de mémoire vive embarquée me direz-vous ? En réalité, la mémoire vidéo est nécessaire pour charger un fichier nommé <span style="text-decoration: underline;"><a href="https://github.com/ethereum/wiki/wiki/Ethash-DAG">DAG</a></span> qui va permettre de faire les calculs. Et ce fichier est actuellement supérieur à 2Go et grossit petit à petit selon une règle définie à l’avance. La prévision de son évolution de taille est la suivante :
+<p style="text-align: center;">La limite de 2GB a été dépassée à la  mi-décembre 2016
 La limite de 3GB sera dépassée à la mi-Avril 2018
 La limite de 4GB sera dépassée à la mi-septembre 2019</p>
-<p style="text-align: center"><strong>Si votre carte graphique n’a pas assez de mémoire vidéo pour charger le fichier DAG, vous ne pourrez pas miner avec celle-ci.</strong></p>
+<p style="text-align: center;"><strong>Si votre carte graphique n’a pas assez de mémoire vidéo pour charger le fichier DAG, vous ne pourrez pas miner avec celle-ci.</strong></p>
 Attention ! Sachez que toutes les cartes graphiques ne sont pas égales. Les vielles cartes genre GTX6xx, 7xx, AMD R7, etc sont plutôt dépassées : vous ne minerez pas très vite et consommerez pas mal de courant (chic, ça chauffe l’appart en hiver !). Les R9, genre R9 290 ou R9 390 sont valables niveau hashrate, mais elles consomment beaucoup d’électricité et chauffent beaucoup. Actuellement, je trouve que les RX470 et 480 sont un bon compromis, d’autant que leur prix devrait prochainement baisser avec l’apparition des RX5xx. Les GTX1070 sont performantes, mais à choisir et à l’heure d’écrire cet article, je préfère 2 RX480 pour le prix d’une GTX1070. En règle générale, plus la carte est récente, plus elle est efficiente. Mais attention, c’est rarement les modèles très hauts de gamme qui sont les meilleurs à ce jeu, car un peu gonflées et du coup gourmandes en électricité. Elles sont même parfois super mauvaises, comme la GTX1080 (aux dernières nouvelles, la mémoire GDDR5x qu'elle embarque n'est pas très bonne pour miner).
 
 Bref, vous seul êtes maître de votre budget et de votre objectif : choisissez des cartes efficientes pour être rentable rapidement et pouvoir mettre à jour son matériel fréquemment, quitte à tout abandonner et ne pas perdre grand-chose si le cours de l’ether se casse la figure. Investissez toutes vos économies pour avoir le hashrate le plus élevé possible et gagner rapidement le plus d’ether possible si vous faites le pari que son cours grimpera encore longtemps et qu’à terme, ce gros investissement sera largement rentable.
 
 Je vous mets quelques liens vers des outils pour que vous puissiez vous faire une opinion personnelle :
 <ul>
- 	<li>Vous pouvez voir quelques stats de hashrate de cartes graphiques ici : <span style="text-decoration: underline"><a href="http://62.212.74.86/~mining/list/nvidia/index.php?algo=eth">http://62.212.74.86/~mining/list/nvidia/index.php?algo=eth</a></span>.</li>
- 	<li>Vous pouvez avoir une idée de rentabilité de votre matériel ici : <span style="text-decoration: underline"><a href="https://whattomine.com">https://whattomine.com</a></span> ou <span style="text-decoration: underline"><a href="https://www.cryptocompare.com/mining/#/equipment?f1=Ethash">https://www.cryptocompare.com/mining/#/equipment?f1=Ethash</a></span>. Attention, les sites proposent souvent un Hashrate élevé pour les cartes, je pense qu'ils partent du principe que vous avez complètement optimisé votre machine voire mis un custom BIOS sur votre GPU (ce qui vous fait perdre la garantie il me semble).</li>
- 	<li>Si vous voulez calculer de manière précise la rentabilité de votre affaire c’est ici : <span style="text-decoration: underline"><a href="https://cryptowizzard.github.io/eth-mining-calculator/">https://cryptowizzard.github.io/eth-mining-calculator/</a></span></li>
+ 	<li>Vous pouvez voir quelques stats de hashrate de cartes graphiques ici : <span style="text-decoration: underline;"><a href="http://62.212.74.86/~mining/list/nvidia/index.php?algo=eth">http://62.212.74.86/~mining/list/nvidia/index.php?algo=eth</a></span>.</li>
+ 	<li>Vous pouvez avoir une idée de rentabilité de votre matériel ici : <span style="text-decoration: underline;"><a href="https://whattomine.com">https://whattomine.com</a></span> ou <span style="text-decoration: underline;"><a href="https://www.cryptocompare.com/mining/#/equipment?f1=Ethash">https://www.cryptocompare.com/mining/#/equipment?f1=Ethash</a></span>. Attention, les sites proposent souvent un Hashrate élevé pour les cartes, je pense qu'ils partent du principe que vous avez complètement optimisé votre machine voire mis un custom BIOS sur votre GPU (ce qui vous fait perdre la garantie il me semble).</li>
+ 	<li>Si vous voulez calculer de manière précise la rentabilité de votre affaire c’est ici : <span style="text-decoration: underline;"><a href="https://cryptowizzard.github.io/eth-mining-calculator/">https://cryptowizzard.github.io/eth-mining-calculator/</a></span></li>
 </ul>
 Pour finir, si ces mises en garde ne vous ont pas refroidi et que vous souhaitez toujours acquérir un outil dédié pour miner, vous trouverez quelques conseils dans le dernier paragraphe de cet article.
 <h1><strong>Miner, partie logicielle</strong></h1>
@@ -83,7 +83,7 @@ Il y a un fichier Readme!!!.txt à lire pour connaitre tous les paramètres. Je 
 <ol>
  	<li>Téléchargez et installez Claymore's Dual Ethereum + Decred/Siacoin/Lbry/Pascal AMD+NVIDIA GPU Miner :</li>
 </ol>
-<p style="text-align: center"><u>https://bitcointalk.org/index.php?topic=1433925.0 </u></p>
+<p style="text-align: center;"><u>https://bitcointalk.org/index.php?topic=1433925.0 </u></p>
 
 <ol start="2">
  	<li>Ouvrez le Bloc-Notes, et écrivez les lignes suivantes :</li>
@@ -100,21 +100,21 @@ Evidemment, changez <em>URL_POOL</em>, <em>PORT_POOL</em> et <em>VOTRE_WALLE
 </ol>
 <h2><strong>Les options du logiciel</strong></h2>
 Pour info, il y a des options possibles, à rajouter à la fin, mais tout ça dépend de votre matériel et de la configuration que vous voulez faire. J’en rappelle quelques-unes :
-<table class=" aligncenter" style="width: 900px">
+<table class=" aligncenter" style="width: 900px;">
 <tbody>
 <tr>
-<td style="width: 115px">
+<td style="width: 115px;">
 <pre><strong><em>-di x</em></strong></pre>
 </td>
-<td style="width: 1037px;text-align: left">
+<td style="width: 1037px; text-align: left;">
 <div>Index des GPU (si on ne met pas ce paramètre, le logiciel démarre avec tout ce qui peut miner). Permet de dire quels GPU minent.</div>
 <div>Par exemple -di 023 va permettre de miner avec le 1<sup>er,</sup> le 3<sup>ème</sup> et le 4ème GPU (oui, 0=1 je sais c’est bizarre :))</div></td>
 </tr>
 <tr>
-<td style="width: 115px">
+<td style="width: 115px;">
 <pre><strong><em>-esm x</em></strong></pre>
 </td>
-<td style="width: 1037px;text-align: left">
+<td style="width: 1037px; text-align: left;">
 <div>Mode Stratum (x=0 par défaut) :</div>
 <div>0 eth-proxy mode (dwarpool.com, ethermine.org,…)</div>
 <div>1 qtminer mode (ethpool.org)</div>
@@ -122,10 +122,10 @@ Pour info, il y a des options possibles, à rajouter à la fin, mais tout ça 
 <div>3 nicehash mode</div></td>
 </tr>
 <tr>
-<td style="width: 115px">
+<td style="width: 115px;">
 <pre><strong><em>-etha x</em></strong></pre>
 </td>
-<td style="width: 1037px;text-align: left">
+<td style="width: 1037px; text-align: left;">
 <div>Type d’algorithme Ethereum à utiliser pour les cartes AMD (si on ne met pas ce paramètre, le logiciel détecte automatiquement la valeur)</div>
 <div>0 optimisé pour les cartes performantes</div>
 <div>1 optimisé pour les cartes à Hashrate bas</div>
@@ -133,68 +133,68 @@ Pour info, il y a des options possibles, à rajouter à la fin, mais tout ça 
 <div>On peut spécifier l’algorithme pour chaque carte en séparant par une virgule chaque valeur par exemple : -etha 0,0,1,1</div></td>
 </tr>
 <tr>
-<td style="width: 115px">
+<td style="width: 115px;">
 <pre><strong><em>-ethi x</em></strong></pre>
 </td>
-<td style="width: 1037px;text-align: left">
+<td style="width: 1037px; text-align: left;">
 <div>Définit l’intensité pour le calcul (x=8 par défaut). On peut diminuer volontairement cette valeur si on souhaite pouvoir avoir en parallèle une activité de bureau ou si on a des problèmes de stabilité. La valeur la plus basse est « -ethi 0 ». Attention, par expérience on constate souvent que ça n’est pas parce que l’intensité est la plus haute que le Hashrate sera le meilleur.</div>
 <div>On peut spécifier l’intensité pour chaque carte en séparant par une virgule chaque valeur par exemple : -ethi 7,7,8,8</div></td>
 </tr>
 <tr>
-<td style="width: 115px">
+<td style="width: 115px;">
 <pre><strong><em>-eres x</em></strong></pre>
 </td>
-<td style="width: 1037px;text-align: left">
+<td style="width: 1037px; text-align: left;">
 <div>Ce paramètre est à mettre si votre miner crashe lors de changement d’Epoch. Lors d’une changement d’Epoch, le logiciel recharge le DAG dans la mémoire GPU. Mais ce nouveau DAG étant légèrement plus gros que l’ancien, et parfois ca crashe. Pour éviter ça, ce paramètre réserve la mémoire qui sera nécessaire pour le DAG qui sera chargé dans x Epoch (par défaut x=2).</div></td>
 </tr>
 <tr>
-<td style="width: 115px">
+<td style="width: 115px;">
 <pre><strong><em>-li x</em></strong></pre>
 </td>
-<td style="width: 1037px;text-align: left">
+<td style="width: 1037px; text-align: left;">
 <div>Low intensity mode. Pour réduire l’intensité de calcul, histoire que ça chauffe moins ou que ça freeze moins (si vous voulez avoir une activité de bureau en même temps). -li 10 mine moins que -li 1 (0 par défaut)</div></td>
 </tr>
 <tr>
-<td style="width: 115px">
+<td style="width: 115px;">
 <pre><strong>-nofee</strong></pre>
 </td>
-<td style="width: 1037px;text-align: left">
+<td style="width: 1037px; text-align: left;">
 <div>Enlève la « taxe » instaurée par le développeur pour se rémunérer, mais réduit de 4% environ le hashrate.</div></td>
 </tr>
 <tr>
-<td style="width: 115px">
+<td style="width: 115px;">
 <pre><strong><em>-tt x</em></strong></pre>
 </td>
-<td style="width: 1037px;text-align: left">
+<td style="width: 1037px; text-align: left;">
 <div>Cible de température du GPU. -tt 80 signifie une température cible de 80°C pour le 1<sup>er</sup> GPU. -tt 70,80,75 par exemple s’utilise pour spécifier la température cible pour les 3 premiers GPU. -tt -50 (négatif donc) permet de fixer la vitesse des ventilateurs (en %), ici 50%. Par défaut, le logiciel est configuré sur -tt 1, qui permet juste d’avoir l’info sur la température du GPU et la vitesse des ventilos.</div>
 <div>Attention, pour les cartes NVIDIA on ne peut que monitorer et pas gérer la température.</div></td>
 </tr>
 <tr>
-<td style="width: 115px">
+<td style="width: 115px;">
 <pre><strong><em>-ttli x</em></strong></pre>
 </td>
-<td style="width: 1037px;text-align: left">
+<td style="width: 1037px; text-align: left;">
 <div>Baisse l’intensité du minage pour rester à la température x. -ttli 70,80,75 par exemple s’utilise pour que les 3 premiers GPU restent aux températures cibles (70°, 80° et 75°)</div></td>
 </tr>
 <tr>
-<td style="width: 115px">
+<td style="width: 115px;">
 <pre><strong><em>-fanmax x</em></strong></pre>
 </td>
-<td style="width: 1037px;text-align: left">
+<td style="width: 1037px; text-align: left;">
 <div>Spécifie la vitesse max des ventilos (en %). -fanmax 80 signifie une vitesse max de 80%. On le spécifie également par GPU : -fanmax 70,80,75 par exemple</div>
 <div>Non supporté avec NVIDIA</div></td>
 </tr>
 <tr>
-<td style="width: 115px">
+<td style="width: 115px;">
 <pre><strong><em>-fanmin x</em></strong></pre>
 </td>
-<td style="width: 1037px;text-align: left">
+<td style="width: 1037px; text-align: left;">
 <div>Spécifie la vitesse min des ventilos (en %). -fanmin 30 signifie une vitesse min de 30%. On le spécifie également par GPU : -fanmin 40,50,40 par exemple</div>
 <div>Non supporté avec NVIDIA</div></td>
 </tr>
 </tbody>
 </table>
-Il <span style="text-decoration: underline">existe d’autres options</span>, que je ne détaillerai pas ici, mais qui sont disponibles dans le fichier <strong>Readme!!!.txt</strong>
+Il <span style="text-decoration: underline;">existe d’autres options</span>, que je ne détaillerai pas ici, mais qui sont disponibles dans le fichier <strong>Readme!!!.txt</strong>
 <h1><strong>Les pools et comment y participer</strong></h1>
 Il est obligatoire aujourd'hui de rejoindre un pool pour miner, sauf si on a une énorme capacité de minage, mais vous ne liriez pas ce tuto dans ce cas. Un pool permet de répartir le travail. On ne mine pas en trouvant des blocs toutes les 30 secondes (il faut beaucoup beaucoup de puissance de calcul pour y arriver), mais des solutions qui contribuent à trouver un bloc. Le pool permet de séparer le travail en petites entités, et vous confie des calculs que votre matériel tente de résoudre. Si votre machine trouve une solution au calcul suffisamment vite, elle la partage avec le pool (share). Ne croyez pas que vous trouvez des blocs toutes les minutes, c’est bien plus compliqué que ça.
 
@@ -202,7 +202,7 @@ Notez qu’il est souvent peu contraignant d’être dans un pool. En effet, la 
 
 Notez encore une fois que ci-dessous je ne donne que la méthode pour miner avec <strong>Claymore</strong>. Si vous voulez utiliser autre chose, inspirez-vous de ce que vous avez ici et des FAQ et autres Help propre au pool que vous souhaitez rejoindre.
 <h2><strong>Dwarfpool</strong></h2>
-<p style="text-align: center"><span style="text-decoration: underline"><a href="http://dwarfpool.com/eth">http://dwarfpool.com/eth</a></span></p>
+<p style="text-align: center;"><span style="text-decoration: underline;"><a href="http://dwarfpool.com/eth">http://dwarfpool.com/eth</a></span></p>
 Dwarfpool, c’était historiquement le plus gros pool, mais aujourd'hui d’autres pools se sont bien bien développées. Ils paient selon un système HBPPS (le pool compte le nombre de blocks qu'il a trouvé durant la dernière heure et répartit les gains à tous les mineurs proportionnellement au nombre de partages effectués par chacun durant cette même durée), avec 1% de frais de paiement, et paient 1 fois par heure (mais seulement si votre montant plafond est atteint). Le minage est anonyme (pas de compte à créer). On peut régler le montant plafond à partir duquel les ether cumulés pour le travail effectué sont versés sur le wallet.
 
 La page des stats n’est pas folichonne, mais il y a l’essentiel et l’évolution de vos stats va assez vite. Les vitesses affichées sont calculées selon les derniers partages reçus c’est assez vite juste (environ 30min).
@@ -221,12 +221,12 @@ La page des stats n’est pas folichonne, mais il y a l’essentiel et l’évol
 Commande passe-partout :
 <pre>cmd /K “start /B EthDcrMiner64.exe -epool  eth-eu.dwarfpool.com:8008 -ewal 0x41bbe82fbeac4ba2d9afbac0dcc44c7769d13c64 -eworker WORKWELL -epsw x”
 pause</pre>
-<p style="text-align: center"><strong>N’OUBLIEZ PAS DE METTRE VOTRE PROPRE WALLET A LA PLACE DU MIEN</strong></p>
+<p style="text-align: center;"><strong>N’OUBLIEZ PAS DE METTRE VOTRE PROPRE WALLET A LA PLACE DU MIEN</strong></p>
 Pour voir ses stats, attendre au moins 15 min, et aller à l’adresse :
-<p style="text-align: center">http://dwarfpool.com/eth/address?wallet=<strong><em>VOTRE_WALLET</em></strong></p>
+<p style="text-align: center;">http://dwarfpool.com/eth/address?wallet=<strong><em>VOTRE_WALLET</em></strong></p>
 
 <h2><strong>Ethermine</strong></h2>
-<p style="text-align: center"><span style="text-decoration: underline"><a href="http://ethermine.org/">http://ethermine.org/</a></span></p>
+<p style="text-align: center;"><span style="text-decoration: underline;"><a href="http://ethermine.org/">http://ethermine.org/</a></span></p>
 Ethermine c’est un bon pool, actuellement le 2<sup>ème</sup> plus gros contributeur. Il est directement issu de Ethpool.org qui est techniquement très au point. La seule chose qui change est le mode de paiement PPLNS (Grosso-modo, ils redistribuent les gains obtenus pour le dernier bloc trouvé proportionnellement à la moyenne de vos partages durant les x derniers blocks trouvés). Il est possible de paramétrer dans account settings la fréquence de paiement (Payment threshold in Ether). Attention par contre, il y a des commissions sur les payouts si votre seuil est inférieur à 1 Ether. Les frais de paiements sont de 1%. Le minage est anonyme (pas de compte à créer).
 
 J’aime bien leur page de statistiques. Attention, le Hashrate n’est pas juste les 60 premières minutes (ils font une moyenne sur les partages reçus).
@@ -245,13 +245,13 @@ J’aime bien leur page de statistiques. Attention, le Hashrate n’est pas just
 Commande passe-partout :
 <pre>cmd /K “start /B EthDcrMiner64.exe -epool  eu2.ethermine.org:14444 -ewal 0x41bbe82fbeac4ba2d9afbac0dcc44c7769d13c64 -eworker WORKWELL -epsw x”
 pause</pre>
-<p style="text-align: center"><strong>N’OUBLIEZ PAS DE METTRE VOTRE PROPRE WALLET A LA PLACE DU MIEN</strong></p>
+<p style="text-align: center;"><strong>N’OUBLIEZ PAS DE METTRE VOTRE PROPRE WALLET A LA PLACE DU MIEN</strong></p>
 Pour voir ses stats, attendre au moins 15 min, et aller à l’adresse :
-<p style="text-align: center">http://ethermine.org/miners/<strong><em>VOTRE_WALLET</em></strong></p>
+<p style="text-align: center;">http://ethermine.org/miners/<strong><em>VOTRE_WALLET</em></strong></p>
 
 <h2><strong>Nanopool</strong></h2>
-<p style="text-align: center"><span style="text-decoration: underline"><a href="https://eth.nanopool.org">https://eth.nanopool.org</a></span></p>
-<p style="text-align: left">Ce pool paie 4 fois par jours, selon la méthode PPLNS (avec N le nombre de partages durant les dernières 20mins). Il n’y a pas de commission fixe sur les paiements, juste des frais de paiement à hauteur de 1%, comme les autres. Le minage est anonyme (pas de compte à créer). Ils recommandent de ne pas miner chez eux si vous n’avez pas un hashrate d’au moins 5 Mh/s. On trouve une appli Android et iOs pour suivre son travail​.</p>
+<p style="text-align: center;"><span style="text-decoration: underline;"><a href="https://eth.nanopool.org">https://eth.nanopool.org</a></span></p>
+<p style="text-align: left;">Ce pool paie 4 fois par jours, selon la méthode PPLNS (avec N le nombre de partages durant les dernières 20mins). Il n’y a pas de commission fixe sur les paiements, juste des frais de paiement à hauteur de 1%, comme les autres. Le minage est anonyme (pas de compte à créer). Ils recommandent de ne pas miner chez eux si vous n’avez pas un hashrate d’au moins 5 Mh/s. On trouve une appli Android et iOs pour suivre son travail​.</p>
 <strong>Pour miner sur Nanopool</strong>
 <ol>
  	<li>Installer Claymore et le paramétrer avec la config pour miner <strong>comme décrit dans le paragraphe dédié à la présentation du logiciel</strong>.</li>
@@ -266,9 +266,9 @@ Pour voir ses stats, attendre au moins 15 min, et aller à l’adresse :
 Commande passe-partout :
 <pre>cmd /K “start /B EthDcrMiner64.exe -epool  eth1-eu1.nanopool.org:9999 -ewal 0x41bbe82fbeac4ba2d9afbac0dcc44c7769d13c64 -eworker WORKWELL -epsw x”
 pause</pre>
-<p style="text-align: center"><strong>N’OUBLIEZ PAS DE METTRE VOTRE PROPRE WALLET A LA PLACE DU MIEN</strong></p>
+<p style="text-align: center;"><strong>N’OUBLIEZ PAS DE METTRE VOTRE PROPRE WALLET A LA PLACE DU MIEN</strong></p>
 Pour voir ses stats, attendre au moins 15 min, et aller à l’adresse :
-<p style="text-align: center">http://eth.nanopool.org/account/<strong><em>VOTRE_WALLET</em></strong></p>
+<p style="text-align: center;">http://eth.nanopool.org/account/<strong><em>VOTRE_WALLET</em></strong></p>
 
 <h1><strong>Quelques combines pour maximaliser son Hashrate</strong></h1>
 Si vous avez le sentiment d’être lésé niveau Hashrate, vous pouvez toujours :
@@ -302,7 +302,7 @@ Dans l’onglet « Start », il y a 3 boutons, une coche et un tableau :
 </ul>
 Dans cet onglet, il ne faut rien supprimer et ne pas ajouter/supprimer de lignes. J’ai donc mis un mot de passe (Ethereum-France) pour éviter les bêtises accidentelles.
 
-Vous pouvez télécharger cette feuille ici : <span style="text-decoration: underline"><a href="https://okkoh-owncloud.cloud.seedboxes.cc/index.php/s/8BtDPVf7fvZqRRf">https://okkoh-owncloud.cloud.seedboxes.cc/index.php/s/8BtDPVf7fvZqRRf</a></span> Libre à vous de l’utiliser ou de la modifier comme bon vous semble. Par contre, je ne fais aucun support !
+Vous pouvez télécharger cette feuille ici : <span style="text-decoration: underline;"><a href="https://okkoh-owncloud.cloud.seedboxes.cc/index.php/s/8BtDPVf7fvZqRRf">https://okkoh-owncloud.cloud.seedboxes.cc/index.php/s/8BtDPVf7fvZqRRf</a></span> Libre à vous de l’utiliser ou de la modifier comme bon vous semble. Par contre, je ne fais aucun support !
 <h1><strong>Créer son outil de minage intensif</strong></h1>
 Vous l’aurez peut-être remarqué, mais miner avec son PC gamer ça marche, mais le nombre d’ether gagné par semaine n’est pas légion. Si en plus vous stoppez le logiciel pour tout dézinguer pendant 4h sur le dernier Battlefield, vous ne devez pas avoir énormément d'Ether dans les poches.. Du coup, pour ceux qui souhaiteraient investir un peu plus, il est possible de monter une machine de compétition, dédiée au minage. Il y a mille et une manière de faire ça, mais je vais vous donner quelques idées sur les composants qui me paraissent réellement adaptés (tout en notant bien que personnellement, je n'ai pas de telle machine !). Ainsi, pour bien réussir sa machine de minage, il faut :
 <ul>
@@ -311,14 +311,14 @@ Vous l’aurez peut-être remarqué, mais miner avec son PC gamer ça marche, ma
  	<li>Prendre un peu de mémoire vive, 4Go de RAM suffisent.</li>
  	<li>Préférer, si possible des cartes graphiques (GPU) avec au moins 4Go de mémoire vidéo. Attention, il parait que Windows ne sait pas gérer par défaut plus de 4 GPU mais que ca se contourne. Pas de problème avec Linux (EthOS, Simplemining,…).</li>
  	<li>Ne prévoyez pas d’enfermer le tout dans un boitier, ça va dégager beaucoup de chaleur. Attention également à la pièce dans laquelle vous mettez la chose vu qu'encore une fois ça fait du bruit et ça dégage de la chaleur. En été, s’il fait trop chaud, c’est probable que le hashrate soit diminué pour préserver les cartes graphiques. Voire que ca se coupe!</li>
- 	<li>Pour une machine dédiée, préférez un OS dédié, soit EthOS (payant, AMD uniquement), soit Simplemining OS (gratuit et AMD uniquement, mais on ne peut pas mélanger les RX series avec les R series), soit KopiemTu (Nvidia). Ces logiciels ne sont pas limités pour le nombre de GPU, tant que votre CM les reconnais, ils les gèrent. <span style="text-decoration: underline"><a href="http://ethosdistro.com/">http://ethosdistro.com/</a></span> ou <span style="text-decoration: underline"><a href="https://simplemining.net/">https://simplemining.net/</a></span> ou <span style="text-decoration: underline"><a href="https://bitcointalk.org/index.php?topic=520998.0">https://bitcointalk.org/index.php?topic=520998.0</a></span> Notez que ces distributions fonctionnent toutes avec Linux et qu’il doit probablement être possible d’installer Teamviewer par exemple pour les contrôler à distance si besoin est.</li>
+ 	<li>Pour une machine dédiée, préférez un OS dédié, soit EthOS (payant, AMD uniquement), soit Simplemining OS (gratuit et AMD uniquement, mais on ne peut pas mélanger les RX series avec les R series), soit KopiemTu (Nvidia). Ces logiciels ne sont pas limités pour le nombre de GPU, tant que votre CM les reconnais, ils les gèrent. <span style="text-decoration: underline;"><a href="http://ethosdistro.com/">http://ethosdistro.com/</a></span> ou <span style="text-decoration: underline;"><a href="https://simplemining.net/">https://simplemining.net/</a></span> ou <span style="text-decoration: underline;"><a href="https://bitcointalk.org/index.php?topic=520998.0">https://bitcointalk.org/index.php?topic=520998.0</a></span> Notez que ces distributions fonctionnent toutes avec Linux et qu’il doit probablement être possible d’installer Teamviewer par exemple pour les contrôler à distance si besoin est.</li>
  	<li>Question stockage, un petit SSD de 32Go (on peut acheter EthOS sur un SSD directement) voire une clé USB avec des taux de lecture/écriture rapides suffiront.</li>
- 	<li>Il vous faut des risers pour déporter vos GPU de la CM. Préférez des risers alimentés PCIe 1x-16x avec des câbles USB plutôt qu’avec des rubans : <span style="text-decoration: underline"><a href="https://www.amazon.fr/XCSOURCE-Adaptateur-dextension-dalimentation-AC330/dp/B01ER2Z1GY/ref=sr_1_1?ie=UTF8&amp;qid=1487923697&amp;sr=8-1&amp;keywords=riser">https://www.amazon.fr/XCSOURCE-Adaptateur-dextension-dalimentation-AC330/dp/B01ER2Z1GY/ref=sr_1_1?ie=UTF8&amp;qid=1487923697&amp;sr=8-1&amp;keywords=riser</a></span> . Selon les produits, il a été reporté que la qualité des soudures pour les rubans n’est pas toujours au rendez-vous. Pas de problème avec des câbles USB !</li>
+ 	<li>Il vous faut des risers pour déporter vos GPU de la CM. Préférez des risers alimentés PCIe 1x-16x avec des câbles USB plutôt qu’avec des rubans : <span style="text-decoration: underline;"><a href="https://www.amazon.fr/XCSOURCE-Adaptateur-dextension-dalimentation-AC330/dp/B01ER2Z1GY/ref=sr_1_1?ie=UTF8&amp;qid=1487923697&amp;sr=8-1&amp;keywords=riser">https://www.amazon.fr/XCSOURCE-Adaptateur-dextension-dalimentation-AC330/dp/B01ER2Z1GY/ref=sr_1_1?ie=UTF8&amp;qid=1487923697&amp;sr=8-1&amp;keywords=riser</a></span> . Selon les produits, il a été reporté que la qualité des soudures pour les rubans n’est pas toujours au rendez-vous. Pas de problème avec des câbles USB !</li>
  	<li>Pour l’alimentation, sa puissance dépendra du nombre de GPU. Pour être large, comptez 170W/GPU + 150W.</li>
- 	<li>Essayez de prendre des alims avec une bonne certification, genre Gold ou Platinium, ça garantit un bon rendement électrique (peu de pertes dans la transformation du courant 220V). Faites attention à avoir un maximum de câbles d'alim PCIe et Molex (on peut acheter des adaptateurs 2*Molex-&gt;PCIe). Si vous voyez une bonne offre sur une alim moins grosse, sachez que vous pouvez travailler avec 2 alims grâce à ça <span style="text-decoration: underline"><a href="http://www.thermaltake.com/products-model.aspx?id=C_00002406">http://www.thermaltake.com/products-model.aspx?id=C_00002406</a></span>. Ou ca <span style="text-decoration: underline"><a href="http://www.la-boutique-du-mineur.com/connectique/11-coupleur-alimentation-dual-psu-50cm.html">http://www.la-boutique-du-mineur.com/connectique/11-coupleur-alimentation-dual-psu-50cm.html</a></span>. Ce câble permet de réveiller la seconde alim, celle qui n’est pas branchée à la carte mère, en même temps que l’autre et d’alimenter les GPU supplémentaires sans retard (et du coup sans casse :) )</li>
+ 	<li>Essayez de prendre des alims avec une bonne certification, genre Gold ou Platinium, ça garantit un bon rendement électrique (peu de pertes dans la transformation du courant 220V). Faites attention à avoir un maximum de câbles d'alim PCIe et Molex (on peut acheter des adaptateurs 2*Molex-&gt;PCIe). Si vous voyez une bonne offre sur une alim moins grosse, sachez que vous pouvez travailler avec 2 alims grâce à ça <span style="text-decoration: underline;"><a href="http://www.thermaltake.com/products-model.aspx?id=C_00002406">http://www.thermaltake.com/products-model.aspx?id=C_00002406</a></span>. Ou ca <span style="text-decoration: underline;"><a href="http://www.la-boutique-du-mineur.com/connectique/11-coupleur-alimentation-dual-psu-50cm.html">http://www.la-boutique-du-mineur.com/connectique/11-coupleur-alimentation-dual-psu-50cm.html</a></span>. Ce câble permet de réveiller la seconde alim, celle qui n’est pas branchée à la carte mère, en même temps que l’autre et d’alimenter les GPU supplémentaires sans retard (et du coup sans casse :) )</li>
 </ul>
 Attention, je vous rappelle à la prudence concernant vos investissements (voir mon paragraphe sur le sujet plus haut).
 
 <em> </em>
-<p style="text-align: center"><em>Voilà, n'hésitez pas à me dire si ce tuto vous a plu et vous a aidé. Pour les quelques personnes prêtes à soutenir/remercier un bénévole, mon wallet : 0x14D65bEa9D868e77C7cbBF2787077A66d760F8bb</em></p>
-<p style="text-align: center"><em>Et si vous remarquez des coquilles, dites-le-moi discrètement, je corrigerai ;)</em></p>
+<p style="text-align: center;"><em>Voilà, n'hésitez pas à me dire si ce tuto vous a plu et vous a aidé. Pour les quelques personnes prêtes à soutenir/remercier un bénévole, mon wallet : 0x14D65bEa9D868e77C7cbBF2787077A66d760F8bb</em></p>
+<p style="text-align: center;"><em>Et si vous remarquez des coquilles, dites-le-moi discrètement, je corrigerai ;)</em></p>
