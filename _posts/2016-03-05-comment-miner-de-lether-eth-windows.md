@@ -27,7 +27,7 @@ La façon plus "simple" de miner, c'est en participant à travers un "<em>pool<
 
 Pour miner en pool, il vous faut un pilote OpenGL pour votre carte graphique (normalement déjà installé sur votre PC) et le programme ethminer.
 
-Pour télécharger le programme ethminer, <a href="https://github.com/ethereum-mining/ethminer/releases/tag/v0.12.0.dev2">cliquez ici</a>.
+Pour télécharger le programme ethminer, <a href="https://github.com/ethereum-mining/ethminer/releases/">cliquez ici</a> puis sous <strong>Downloads</strong> cliquez sur le premier fichier en .zip contenant le mot "windows". Exemple à l'heure ou j'écris ces lignes : <strong>ethminer-0.12.0.dev2-Windows.zip.</strong>
 
 Il s'agit d'une archive au format .zip. Il est plus simple de l'extraire  directement à la racine de votre disque dur (par exemple <em>C:\eth\</em>). Si cette dernière phrase est incompréhensible, <a href="http://windows.microsoft.com/fr-fr/windows/compress-uncompress-files-zip-files#1TC=windows-7">suivez ce guide</a> ou posez vos questions en commentaires.
 
