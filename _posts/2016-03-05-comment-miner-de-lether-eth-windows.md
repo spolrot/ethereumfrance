@@ -17,8 +17,8 @@ Ceci étant précisé :
 
 Pour miner de l'ether (ETH) en participant à la blockchain ethereum, vous avez besoin :
 <ul>
- 	<li>D'une adresse sur laquelle envoyer vos ethers (de type 0xD95DC4cf508fDDC10...) que vous pouvez <a href="http://www.ethereum-france.com/creer-et-gerer-son-portefeuille-dether-en-2-minutes-avec-myetherwallet-com/">créer ici</a>.</li>
- 	<li>D'un ordinateur doté d'une carte graphique assez puissante (et dotée de minimum 2 Go de RAM) ;</li>
+ 	<li>D'une adresse sur laquelle envoyer vos ethers (de type 0xD95DC4cf508fDDC10...) que vous pouvez <a href="http://www.ethereum-france.com/creer-et-gerer-son-portefeuille-dether-en-2-minutes-avec-myetherwallet-com/">créer ici ;</a></li>
+ 	<li>D'un ordinateur doté d'une carte graphique assez puissante (et dotée de minimum 4 Go de RAM) ;</li>
  	<li>De temps.</li>
 </ul>
 La façon plus "simple" de miner, c'est en participant à travers un "<em>pool</em>" qui permet de mutualiser la puissance de calcul de plusieurs personnes pour miner plus efficacement. Cela permet aussi d'éviter une longue période de synchronisation de la blockchain.
@@ -27,7 +27,7 @@ La façon plus "simple" de miner, c'est en participant à travers un "<em>pool<
 
 Pour miner en pool, il vous faut un pilote OpenGL pour votre carte graphique (normalement déjà installé sur votre PC) et le programme ethminer.
 
-Pour télécharger le programme ethminer, <a href="https://github.com/Genoil/cpp-ethereum/blob/master/releases/ethminer-0.9.41-genoil-1.1.7.zip">cliquez ici</a>.
+Pour télécharger le programme ethminer, <a href="https://github.com/ethereum-mining/ethminer/releases/tag/v0.12.0.dev2">cliquez ici</a>.
 
 Il s'agit d'une archive au format .zip. Il est plus simple de l'extraire  directement à la racine de votre disque dur (par exemple <em>C:\eth\</em>). Si cette dernière phrase est incompréhensible, <a href="http://windows.microsoft.com/fr-fr/windows/compress-uncompress-files-zip-files#1TC=windows-7">suivez ce guide</a> ou posez vos questions en commentaires.
 
