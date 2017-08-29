@@ -22,7 +22,7 @@ Je vous recommande grandement de commencer par lire les 2 articles suivants :
  	<li><a href="https://www.ethereum-france.com/tutoriel-complet-pour-miner-sur-la-blockchain-ethereum-mai-2017/">Tutoriel complet pour miner sur la blockchain Ethereum ; mai 2017</a></li>
 </ul>
 </div>
-Notamment concernant la rentabilité et la difficulté grandissante de miner, ainsi que le futur passage annoncé en <a href="https://www.ethereum-france.com/quest-ce-que-la-preuve-denjeu-proof-of-stake-faq-par-v-buterin-traduction-francaise/">POW </a>de la blockchain ethereum.
+Notamment concernant la rentabilité et la difficulté grandissante de miner, ainsi que le futur passage annoncé en <a href="https://www.ethereum-france.com/quest-ce-que-la-preuve-denjeu-proof-of-stake-faq-par-v-buterin-traduction-francaise/">Proof-of-Stake (preuve d'enjeu)</a> de la blockchain ethereum.
 
 Ceci étant dit, passons aux explications.
 
