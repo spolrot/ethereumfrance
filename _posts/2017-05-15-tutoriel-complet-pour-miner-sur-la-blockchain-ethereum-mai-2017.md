@@ -73,7 +73,7 @@ Nous allons maintenant entrer dans le vif du sujet et présenter un logiciel qui
  	<li><strong>Désactivez le SLI/Crossfire</strong> pour pouvoir bénéficier de la puissance de chaque carte graphique, c’est plus intéressant.</li>
  	<li>Quel que soit le logiciel que vous utilisez, <strong>soyez patients,</strong> <strong>utilisez l’aide du programme </strong>avant de venir demander de l’aide.</li>
  	<li>Il existe des <strong>FAQ et des pages Help</strong> sur les sites de chaque pool. Utilisez de préférence ce qu’ils vous recommandent. Évidemment, c’est en anglais, mais si vous vous lancez dans le minage, il est préférable d’avoir quelques connaissances en anglais, en commandes MS-DOS et en dépatouillages et petits bidouillages de programmes.</li>
- 	<li><strong>Miner sous Windows 10, c’est compliqué</strong>, surtout si vous avez une carte Nvidia.</li>
+ 	<li><strong>Miner sous Windows 10, c’est compliqué</strong>, surtout si vous avez une carte Nvidia. Mais pas impossible, voir <a href="https://www.ethereum-france.com/miner-de-lether-eth-sous-windows-10-avec-une-carte-nvidia-et-des-drivers-a-jour/">l'excellent tuto de Ben sur le suje</a>t.</li>
  	<li>Je propose ici de démarrer votre logiciel en passant par un fichier .bat, avec un tout petit peu de code <strong><em>cmd /K “start /B …”</em></strong>. Ça n’est pas obligatoire, on peut tout à fait mettre les attributs dans un raccourci, mais avec ma méthode vous pourrez lire les indications du logiciel si jamais vous avez tapé une erreur (par défaut la fenêtre se ferme et sauf si vous êtes un super sayan, vous n’aurez pas le temps de lire le message). De plus, vous pouvez rajouter d’autres choses à effectuer avant le lancement du programme (quelques lignes d’optimisation, lancer un minuteur,... ou autre chose qui vous passe par la tête). <strong>Attention, ce fichier .bat doit être dans le dossier du logiciel, et si cela ne vous convient pas il vous faut taper dans le fichier .bat toute l’arborescence pour atteindre votre fichier exécutable.</strong></li>
 </ul>
 <h2><strong>Claymore Dual Miner</strong></h2>
@@ -83,7 +83,7 @@ Il y a un fichier Readme!!!.txt à lire pour connaitre tous les paramètres. Je 
 <ol>
  	<li>Téléchargez et installez Claymore's Dual Ethereum + Decred/Siacoin/Lbry/Pascal AMD+NVIDIA GPU Miner :</li>
 </ol>
-<p style="text-align: center"><u>https://bitcointalk.org/index.php?topic=1433925.0 </u></p>
+<p style="text-align: center"><a href="https://bitcointalk.org/index.php?topic=1433925.0"><u>https://bitcointalk.org/index.php?topic=1433925.0 </u></a></p>
 
 <ol start="2">
  	<li>Ouvrez le Bloc-Notes, et écrivez les lignes suivantes :</li>
