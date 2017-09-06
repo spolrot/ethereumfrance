@@ -93,7 +93,7 @@ pause</pre>
 Si vous voulez miner uniquement sur votre seconde carte, y compris pour un PC portable avec un combo carte intégré Intel + GPU AMD ou Nvidia :
 <pre>cmd /K “start /B EthDcrMiner64.exe -epool URL_POOL:PORT_POOL -ewal VOTRE_WALLET -eworker NOM_DU_WORKER -epsw x -di 1”
 pause</pre>
-Evidemment, changez <em>URL_POOL</em>, <em>PORT_POOL</em> et <em>VOTRE_WALLET</em> (la mienne par exemple : 0x41bbe82fbeac4ba2d9afbac0dcc44c7769d13c64) et ne mettez <em>-eworker NOM_DU_WORKER</em> que si ça vous est utile (si vous avez plusieurs workers et que voulez les nommer spécifiquement pour mieux les suivre). Les url et ports du pool désiré sont détaillés dans les paragraphes plus loin.
+Evidemment, changez <em>URL_POOL</em>, <em>PORT_POOL</em> et <em>VOTRE_WALLET</em> (la mienne par exemple : <em>0x14D65bEa9D868e77C7cbBF2787077A66d760F8bb</em>) et ne mettez <em>-eworker NOM_DU_WORKER</em> que si ça vous est utile (si vous avez plusieurs workers et que voulez les nommer spécifiquement pour mieux les suivre). Les url et ports du pool désiré sont détaillés dans les paragraphes plus loin.
 <ol start="3">
  	<li>Sauvez votre fichier en <em>.bat</em> <strong>dans le dossier du logiciel</strong> c’est-à-dire là où vous l’avez décompressé (Fichier &gt; Enregistrer sous -&gt; Nom “LAUNCH.bat”)</li>
  	<li>Lancez le logiciel en double-cliquant sur votre fichier LAUNCH.bat.</li>
@@ -219,7 +219,7 @@ La page des stats n’est pas folichonne, mais il y a l’essentiel et l’évol
 <strong>Exemple</strong>
 
 Commande passe-partout :
-<pre>cmd /K “start /B EthDcrMiner64.exe -epool  eth-eu.dwarfpool.com:8008 -ewal 0x41bbe82fbeac4ba2d9afbac0dcc44c7769d13c64 -eworker WORKWELL -epsw x”
+<pre>cmd /K “start /B EthDcrMiner64.exe -epool  eth-eu.dwarfpool.com:8008 -ewal <em>0x14D65bEa9D868e77C7cbBF2787077A66d760F8bb</em> -eworker WORKWELL -epsw x”
 pause</pre>
 <p style="text-align: center"><strong>N’OUBLIEZ PAS DE METTRE VOTRE PROPRE WALLET A LA PLACE DU MIEN</strong></p>
 Pour voir ses stats, attendre au moins 15 min, et aller à l’adresse :
@@ -243,7 +243,7 @@ J’aime bien leur page de statistiques. Attention, le Hashrate n’est pas just
 <strong>Exemple</strong>
 
 Commande passe-partout :
-<pre>cmd /K “start /B EthDcrMiner64.exe -epool  eu2.ethermine.org:14444 -ewal 0x41bbe82fbeac4ba2d9afbac0dcc44c7769d13c64 -eworker WORKWELL -epsw x”
+<pre>cmd /K “start /B EthDcrMiner64.exe -epool  eu2.ethermine.org:14444 -ewal <em>0x14D65bEa9D868e77C7cbBF2787077A66d760F8bb</em> -eworker WORKWELL -epsw x”
 pause</pre>
 <p style="text-align: center"><strong>N’OUBLIEZ PAS DE METTRE VOTRE PROPRE WALLET A LA PLACE DU MIEN</strong></p>
 Pour voir ses stats, attendre au moins 15 min, et aller à l’adresse :
@@ -264,7 +264,7 @@ Pour voir ses stats, attendre au moins 15 min, et aller à l’adresse :
 <strong>Exemple</strong>
 
 Commande passe-partout :
-<pre>cmd /K “start /B EthDcrMiner64.exe -epool  eth1-eu1.nanopool.org:9999 -ewal 0x41bbe82fbeac4ba2d9afbac0dcc44c7769d13c64 -eworker WORKWELL -epsw x”
+<pre>cmd /K “start /B EthDcrMiner64.exe -epool  eth1-eu1.nanopool.org:9999 -ewal <em>0x14D65bEa9D868e77C7cbBF2787077A66d760F8bb</em> -eworker WORKWELL -epsw x”
 pause</pre>
 <p style="text-align: center"><strong>N’OUBLIEZ PAS DE METTRE VOTRE PROPRE WALLET A LA PLACE DU MIEN</strong></p>
 Pour voir ses stats, attendre au moins 15 min, et aller à l’adresse :
