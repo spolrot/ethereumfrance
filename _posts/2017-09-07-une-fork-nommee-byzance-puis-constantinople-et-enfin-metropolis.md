@@ -33,7 +33,7 @@ post_date: 2017-09-07 16:49:30
 	<li style="font-weight: 400;"><a href="https://github.com/ethereum/EIPs/issues/684"><span style="font-weight: 400;">684</span></a><span style="font-weight: 400;">  Prevent overwriting contracts #684</span></li>
 </ul>
 <p style="text-align: justify;"><span style="font-weight: 400;">Byzantium apporte 3 évolutions majeures qui concernent l’anonymat (196, 197 et 198), la prévisibilité du Gas (140 et 211), la sécurité (190 et 214).</span></p>
- 
+
 <ul style="text-align: justify;">
 	<li style="font-weight: 400;"><strong>La Chasse au Snark, les EIP 196, 197 et 198</strong></li>
 </ul>
@@ -45,17 +45,17 @@ post_date: 2017-09-07 16:49:30
 <ul style="text-align: justify;">
 	<li style="font-weight: 400;"><strong>Réajustement de la difficulté EIP 190</strong></li>
 </ul>
-<p style="text-align: justify;"><span style="font-weight: 400;">L’ajustement de la difficulté entre les blocs change afin de viser un rythme de création des blocs constants incluant les oncles (en anglais </span><i><span style="font-weight: 400;">uncles</span></i><span style="font-weight: 400;"> où </span><i><span style="font-weight: 400;">ommen</span></i><span style="font-weight: 400;">). Auparavant, une manipulation du rythme des oncles permettait d’augmenter artificiellement la difficulté.
+<p style="text-align: justify;"><span style="font-weight: 400;">L’ajustement de la difficulté entre les blocs change afin de viser un rythme de création des blocs constants incluant les oncles (en anglais </span><i><span style="font-weight: 400;">uncles</span></i><span style="font-weight: 400;"> où </span><i><span style="font-weight: 400;">ommen</span></i><span style="font-weight: 400;">). Auparavant, une manipulation du rythme des oncles permettait d’augmenter artificiellement la difficulté.</span></p>
+
+<ul>
 	<li style="font-weight: 400;"><strong>Nouvelle instruction pour l’Ethereum Virtual Machine (EVM): REVERT, EIP 140 (et 658)</strong></li>
 </ul>
+&nbsp;
 
-</span></p>
 https://www.youtube.com/watch?v=4diSpNQSDPo
 <p style="text-align: center;"><em>Une interview du Dr. Greg Colvin sur l'EVM</em></p>
-
-
 <p style="text-align: justify;"><span style="font-weight: 400;">Cette instruction (ou OPCODE) est en préparation depuis 1 an, il s’agit d’une instruction qui provoque une exception et stoppe l’exécution en cours sans consommer de gaz. Jusqu’à présent, lorsque l’on souhaite prévoir l’arrêt d’une exécution (par exemple lorsqu’une condition n’est pas remplie), la seule façon de procéder est de faire expirer la réserve de gaz d’une transaction. Une fois son gaz consommé une telle transaction est dite “</span><i><span style="font-weight: 400;">out of gas</span></i><span style="font-weight: 400;">”, l’état de l’EVM reste inchangé et les mineurs récupèrent les frais associés au traitement de cette transaction sans effet. </span></p>
-<p style="text-align: justify;"><span style="font-weight: 400;">Cette façon de faire présente l’inconvénient majeur de faire occuper beaucoup de place dans les blocs à des transactions “invalidées”. Pour rappel </span><a href="https://www.ethereum-france.com/comptes-transactions-gaz-et-limites-de-gaz-par-bloc-sur-ethereum/"><span style="font-weight: 400;">un bloc sur ethereum a une taille définie par sa limite en gaz</span></a><span style="font-weight: 400;">. En période de forte affluence sur le réseau, lors d’une ICO par exemple, de nombreuses transactions sont ainsi invalidées et sature les blocs. Pour illustrer cette situation, durant l’ICO d’AdToken </span><a href="https://etherscan.io/tx/0xba92286bbd49f29372ddc2475074777f061aa11cc664a4c35a956e2409dd24ce"><span style="font-weight: 400;">cette transaction </span></a><span style="font-weight: 400;">est arrivée 2 blocs après l’ouverture, soit 2 blocs trop tard. Quelques centaines de blocs qui suivent le bloc #3933451 sont saturés. Notez au passage que les mineurs sont incités à traiter ces transactions invalides puisqu’ils récupèrent beaucoup d’ethers en frais de transaction. Grâce à REVERT Il sera donc possible de prévoir dans son code cette exception pour permettre que sous certaine condition l’exécution demandée s’arrête tout simplement sans que trop de gaz ne soit consommé.</span></p>
+<p style="text-align: justify;"><span style="font-weight: 400;">Cette façon de faire présente l’inconvénient majeur de faire occuper beaucoup de place dans les blocs à des transactions “invalidées”. Pour rappel </span><a href="https://www.ethereum-france.com/comptes-transactions-gaz-et-limites-de-gaz-par-bloc-sur-ethereum/"><span style="font-weight: 400;">un bloc sur ethereum a une taille définie par sa limite en gaz</span></a><span style="font-weight: 400;">. En période de forte affluence sur le réseau, lors d’une ICO par exemple, de nombreuses transactions sont ainsi invalidées et saturent les blocs. Pour illustrer cette situation, durant l’ICO d’AdToken </span><a href="https://etherscan.io/tx/0xba92286bbd49f29372ddc2475074777f061aa11cc664a4c35a956e2409dd24ce"><span style="font-weight: 400;">cette transaction </span></a><span style="font-weight: 400;">est arrivée 2 blocs après l’ouverture, soit 2 blocs trop tard. Quelques centaines de blocs qui suivent le bloc #3933451 sont saturés. Notez au passage que les mineurs sont incités à traiter ces transactions invalides puisqu’ils récupèrent beaucoup d’éthers en frais de transaction. Grâce à REVERT Il sera donc possible de prévoir dans son code cette exception pour permettre que sous certaines conditions l’exécution demandée s’arrête tout simplement sans que trop de gaz ne soit consommé.</span></p>
 <p style="text-align: justify;"><span style="font-weight: 400;">En complément à REVERT, l’EIP 658 modifie le contenu du reçu des transactions (receipt) pour refléter le fait qu’avec REVERT il n’est plus clairement possible d’identifier à partir de la transaction traitée si son effet a modifié ou non l’état de la blockchain. En conséquence le champ actuellement obsolète “intermediate state root” du reçu sera remplacé par un statut 1 (succès) ou 0 (échec).</span></p>
 
 <ul>
