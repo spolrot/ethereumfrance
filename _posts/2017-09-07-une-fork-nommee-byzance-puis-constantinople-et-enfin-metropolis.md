@@ -1,0 +1,101 @@
+---
+ID: 2657
+post_title: >
+  Une Fork nommée Byzance, puis
+  Constantinople et enfin Metropolis
+author: JdeTychey
+post_excerpt: ""
+layout: post
+permalink: >
+  https://www.ethereum-france.com/une-fork-nommee-byzance-puis-constantinople-et-enfin-metropolis/
+published: true
+post_date: 2017-09-07 16:49:30
+---
+[caption id="attachment_2662" align="alignnone" width="628"]<img class="alignnone size-full wp-image-2662" src="https://www.ethereum-france.com/wp-content/uploads/2017/09/Metropolis-_1927_film_15418159339.jpg" alt="-Metropolis-_(1927_film)_(15418159339)" width="628" height="644" /> Affiche publicitaire pour le film Metropolis (1927) de Fritz Lang[/caption]
+
+<p style="text-align: justify;"><span style="font-weight: 400;">La Fondation Ethereum poursuit la feuille de route de développement d'Ethereum initialement établie lors du crowdfunding de 2014, à savoir un déploiement en plusieurs phases des différentes fonctionnalités du protocole. Ces phases sont appelées </span><b>Frontier</b><span style="font-weight: 400;"> (l'alpha), </span><b>Homestead</b><span style="font-weight: 400;"> (première version en production, c'est la version actuelle d'Ethereum), </span><b>Metropolis</b><span style="font-weight: 400;"> (prochaine mise à jour majeure avec de nombreuses améliorations - pour la plupart invisibles à l'utilisateur) et enfin </span><b>Serenity</b><span style="font-weight: 400;"> (implémentation de la</span><a href="https://www.ethereum-france.com/quest-ce-que-la-preuve-denjeu-proof-of-stake-faq-par-v-buterin-traduction-francaise/"> <span style="font-weight: 400;">preuve d'enjeu</span></a><span style="font-weight: 400;"> et de la fragmentation / </span><a href="https://www.ethereum-france.com/quest-ce-que-la-fragmentation-ou-sharding-faq-par-v-buterin-traduction/"><span style="font-weight: 400;">sharding</span></a><span style="font-weight: 400;">).</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Comme souvent en matière de développement de projet innovant, les dates prévues pour le déploiement de ces étapes, mais aussi l'étendue exacte des fonctionnalités, ont largement évolué pendant la vie du projet. Depuis le déploiement de</span><a href="https://www.ethereum-france.com/homestead-est-arrive/"> <span style="font-weight: 400;">Homestead</span></a><span style="font-weight: 400;"> en mars 2016, le petite monde au courant du développement du protocole Ethereum attendait avec impatience le déploiement de </span><b>Metropolis</b><span style="font-weight: 400;">.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Làs, les différents événements ayant émaillé la vie de la blockchain Ethereum fin 2016 - The DAO, le hack, le fork, les attaques DoS, les autres forks - ont largement perturbé le travail de l'équipe de développement, occupée à éteindre des incendies plus pressantes. Ces imprévus, couplés aux habituels retards, découvertes, idées nouvelles, ont conduit à un large report de la date de lancement de Metropolis. Cette étape doit correspondre au lancement « grand public » du réseau avec tous les outils permettant d’utiliser facilement des dApps et d’en voir les avantages.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Depuis début juillet le développement d’Ethereum a connu une activité particulièrement intense en vue de la sortie de Metropolis. La Fondation a annoncé le 23 août dernier que le lancement de Métropolis était proche et que plusieurs fonctionnalités étaient déjà prêtes. En conséquence, <strong>Métropolis</strong> sera implémentée en deux fois avec une première hardfork nommée <strong>Byzantium</strong> et une seconde nommée <strong>Constantinople</strong>. Un choix de nom qui se veut un clin d’œil aux noms successifs d'Istanbul, l'une des plus grandes mégalopoles du continent européen. Deux dates sont envisagées pour l’avènement de Byzantium, au meilleur cas la fork aura lieu 22 Septembre au bloc 4 300 000 et au plus tard le 27 octobre au bloc 4 400 000.</span></p>
+
+<h2 style="text-align: justify;"><strong>Byzantium: est-ce le grand luxe?</strong></h2>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Avec Byzantium ce n’est pas moins de 10 Ethereum Improvement Proposals (EIPs):</span></p>
+
+<ul style="text-align: justify;">
+    <li style="font-weight: 400;"><a href="https://github.com/ethereum/EIPs/issues/100"><span style="font-weight: 400;">100</span></a><span style="font-weight: 400;"> Change difficulty adjustment to target mean block time including uncles</span></li>
+    <li style="font-weight: 400;"><a href="https://github.com/ethereum/EIPs/pull/206"><span style="font-weight: 400;">140</span></a><span style="font-weight: 400;"> REVERT instruction in the Ethereum Virtual Machine</span></li>
+    <li style="font-weight: 400;"><a href="https://github.com/ethereum/EIPs/pull/213"><span style="font-weight: 400;">196</span></a><span style="font-weight: 400;"> Precompiled contracts for addition and scalar multiplication</span></li>
+    <li style="font-weight: 400;"><a href="https://github.com/ethereum/EIPs/pull/212"><span style="font-weight: 400;">197</span></a><span style="font-weight: 400;"> Precompiled contracts for optimal Ate pairing check on the elliptic curve</span></li>
+    <li style="font-weight: 400;"><a href="https://github.com/ethereum/EIPs/pull/198"><span style="font-weight: 400;">198</span></a><span style="font-weight: 400;"> Precompiled contract for bigint modular exponentiation</span></li>
+    <li style="font-weight: 400;"><a href="https://github.com/ethereum/EIPs/pull/211"><span style="font-weight: 400;">211</span></a><span style="font-weight: 400;"> New opcodes: RETURNDATASIZE and RETURNDATACOPY</span></li>
+    <li style="font-weight: 400;"><a href="https://github.com/ethereum/EIPs/pull/214"><span style="font-weight: 400;">214</span></a><span style="font-weight: 400;"> New opcode STATICCAL</span></li>
+    <li style="font-weight: 400;"><a href="https://github.com/ethereum/EIPs/pull/669"><span style="font-weight: 400;">649</span></a><span style="font-weight: 400;"> Metropolis Difficulty Bomb Delay and Issuance Reduction</span></li>
+    <li style="font-weight: 400;"><a href="https://github.com/ethereum/EIPs/pull/658"><span style="font-weight: 400;">658</span></a><span style="font-weight: 400;"> Embedding transaction return data in receipts </span></li>
+    <li style="font-weight: 400;"><a href="https://github.com/ethereum/EIPs/issues/684"><span style="font-weight: 400;">684</span></a><span style="font-weight: 400;">  Prevent overwriting contracts #684</span></li>
+</ul>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Byzantium apporte 3 évolutions majeures qui concernent l’anonymat (196, 197 et 198), la prévisibilité du Gas (140 et 211), la sécurité (190 et 214).</span></p>
+
+&nbsp;
+
+<ul style="text-align: justify;">
+    <li style="font-weight: 400;"><strong>La Chasse au Snark, les EIP 196, 197 et 198</strong></li>
+</ul>
+
+[caption id="attachment_2674" align="aligncenter" width="450"]<img class=" wp-image-2674 aligncenter" src="https://www.ethereum-france.com/wp-content/uploads/2017/09/Lewis_Carroll_-_Henry_Holiday_-_Hunting_of_the_Snark_-_Plate_7-1.jpg" alt="Lewis_Carroll_-_Henry_Holiday_-_Hunting_of_the_Snark_-_Plate_7" width="450" height="652" /> Illustration du poème de Lewis Caroll “La Chasse au Snark” par Henry Holliday - La Leçon du Castor:“It felt that, in spite of all possible pains,// It had somehow contrived to lose count,// And the only thing now was to rack its poor brains// By reckoning up the amount.” <span style="font-weight: 400;">“Il comprit qu’en dépit de ses vaillants efforts,// Il n’avait réussi qu’à embrouiller son compte,// Et qu’il allait falloir se creuser la cervelle// Pour, de tête, reconstituer le total.” *Traduction d'Henri Parisot.</span>[/caption]
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Les <strong>zk-SNARKs</strong> (z</span><i><span style="font-weight: 400;">ero-knowledge Succinct Non-interactive ARgument of Knowledge)</span></i><span style="font-weight: 400;"> sont des outils cryptographiques utilisés sur la blockchain Zcash. Ce sont des preuves qu’un calcul a été effectué à partir d’un ensemble de paramètres sans révéler tous ces paramètres. Le créateur de Solidity Christian Reintwiessner résume les zk-SNARKs de la façon suivante:</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">“</span><i><span style="font-weight: 400;">Ils permettent de vérifier l’intégrité des calculs sans avoir à les exécuter et sans avoir à regarder ce qui a été exécuté, ils n’apportent qu’une preuve que ce qui a été exécuté l’a été correctement.</span></i><span style="font-weight: 400;">”</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Il est possible d’utiliser ces preuves pour vérifier la validité d’une transaction dans une blockchain tout en protégeant l’anonymat des utilisateurs concernés par cette transaction. L’aspect succinct des zk-SNARKs trouve aussi des applications dans la réduction des coûts de vérification de l’exécution de smart-contracts complexes. Une garantie de l’intégrité du calcul est ainsi apportée sans surcharger la chaîne. Un travail conjoint des développeurs de Zcash et d’Ethereum a été consacré à porter ces outils dans Ethereum. Pour plus d’information, voir les </span><a href="https://medium.com/@VitalikButerin/quadratic-arithmetic-programs-from-zero-to-hero-f6d558cea649"><span style="font-weight: 400;">3 articles</span></a><span style="font-weight: 400;"> de Vitalik Buterin à ce sujet.</span></p>
+
+<ul style="text-align: justify;">
+    <li style="font-weight: 400;"><strong>Réajustement de la difficulté EIP 190</strong></li>
+</ul>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">L’ajustement de la difficulté entre les blocs change afin de viser un rythme de création des blocs constants incluant les oncles (en anglais </span><i><span style="font-weight: 400;">uncles</span></i><span style="font-weight: 400;"> où </span><i><span style="font-weight: 400;">ommen</span></i><span style="font-weight: 400;">). Auparavant, une manipulation du rythme des oncles permettait d’augmenter artificiellement la difficulté.</span></p>
+
+https://www.youtube.com/watch?v=4diSpNQSDPo
+
+<p style="text-align: center;"><em>Une interview du Dr. Greg Colvin sur l'EVM</em></p>
+
+<ul style="text-align: justify;">
+    <li style="font-weight: 400;"><strong>Nouvelle instruction pour l’Ethereum Virtual Machine (EVM): REVERT, EIP 140 (et 658)</strong></li>
+</ul>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Cette instruction (ou OPCODE) est en préparation depuis 1 an, il s’agit d’une instruction qui provoque une exception et stoppe l’exécution en cours sans consommer de gaz. Jusqu’à présent, lorsque l’on souhaite prévoir l’arrêt d’une exécution (par exemple lorsqu’une condition n’est pas remplie), la seule façon de procéder est de faire expirer la réserve de gaz d’une transaction. Une fois son gaz consommé une telle transaction est dite “</span><i><span style="font-weight: 400;">out of gas</span></i><span style="font-weight: 400;">”, l’état de l’EVM reste inchangé et les mineurs récupèrent les frais associés au traitement de cette transaction sans effet. </span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Cette façon de faire présente l’inconvénient majeur de faire occuper beaucoup de place dans les blocs à des transactions “invalidées”. Pour rappel </span><a href="https://www.ethereum-france.com/comptes-transactions-gaz-et-limites-de-gaz-par-bloc-sur-ethereum/"><span style="font-weight: 400;">un bloc sur ethereum a une taille définie par sa limite en gaz</span></a><span style="font-weight: 400;">. En période de forte affluence sur le réseau, lors d’une ICO par exemple, de nombreuses transactions sont ainsi invalidées et sature les blocs. Pour illustrer cette situation, durant l’ICO d’AdToken </span><a href="https://etherscan.io/tx/0xba92286bbd49f29372ddc2475074777f061aa11cc664a4c35a956e2409dd24ce"><span style="font-weight: 400;">cette transaction </span></a><span style="font-weight: 400;">est arrivée 2 blocs après l’ouverture, soit 2 blocs trop tard. Quelques centaines de blocs qui suivent le bloc #3933451 sont saturés. Notez au passage que les mineurs sont incités à traiter ces transactions invalides puisqu’ils récupèrent beaucoup d’ethers en frais de transaction. Grâce à REVERT Il sera donc possible de prévoir dans son code cette exception pour permettre que sous certaine condition l’exécution demandée s’arrête tout simplement sans que trop de gaz ne soit consommé.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">En complément à REVERT, l’EIP 658 modifie le contenu du reçu des transactions (receipt) pour refléter le fait qu’avec REVERT il n’est plus clairement possible d’identifier à partir de la transaction traitée si son effet a modifié ou non l’état de la blockchain. En conséquence le champ actuellement obsolète “intermediate state root” du reçu sera remplacé par un statut 1 (succès) ou 0 (échec).</span></p>
+
+<ul>
+    <li style="text-align: justify;"><strong>Nouvelles instructions pour l’EVM: RETURNDATASIZE et RETURNDATACOPY, EIP 211 (et  206)</strong></li>
+</ul>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">L’objectif de ces instructions est de permettre de manipuler des données de tailles arbitraires dans l’EVM. En effet, dans certaines situations, la taille des données que retournent une fonction ne peut pas être anticipée alors que l’EVM a besoin de prévoir la taille pour lui allouer la mémoire nécessaire avant de la manipuler. En pratique cela est d’ores et déjà possible en procédant en deux appels, le premier déterminant la taille et le second allouant la mémoire, ce qui est parfois très coûteux en gaz. Cette méthode sera donc possible en passant d’abord par RETURNDATASIZE puis RETURNDATACOPY. Le tout se comporte de façon similaire à CALLDATA, mettant le résultat dans un buffer avant de le copier.</span></p>
+
+<ul style="text-align: justify;">
+    <li style="font-weight: 400;"><strong>Nouvelle instruction STATICCALL EIP 214</strong></li>
+</ul>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Cette nouvelle instruction garantie qu’aucun modification de l’état n’aura lieu lors de l’appel d’un contrat vers un autre contrat. Cela permet notamment de se prémunir d’autant mieux contre le bug de “reintrancy” (exploité lors du hack de TheDAO).</span></p>
+
+<ul style="text-align: justify;">
+    <li style="font-weight: 400;"><strong>Retardement de la bombe de difficulté et réduction du rythme d’émission des éthers EIP 649</strong></li>
+</ul>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Sans aucun doute la discussion la plus controversée, cette EIP a généré un </span><a href="https://github.com/ethereum/EIPs/pull/669"><span style="font-weight: 400;">long</span></a><span style="font-weight: 400;"> débat plus ou moins technique et plus ou moins économique qu’il serait difficile à résumer. Le temps entre chaque bloc croit actuellement du fait de la bombe de difficulté, celle-ci augmente plus que la capacité de minage du réseau. Cette bombe diminue donc progressivement la capacité  d’Ethereum à traiter les transaction et devait inciter le réseau à passer en preuve d’enjeu (</span><i><span style="font-weight: 400;">Proof of Stake</span></i><span style="font-weight: 400;">).</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Il faut avoir à l’esprit qu’un rythme moins soutenu de création de blocs a aussi pour conséquence une émission ralentie de nouveaux ethers. Dès lors il devient de moins en moins rentable de miner à prix constant.</span></p>
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Cette EIP prévoit un recul de la bombe de difficulté de 16 à 17 mois pour retourner à un temps moyen entre les blocs de 14,4 secondes. De plus, afin de refléter la moindre émission de nouveaux éthers qui aurait eu lieu sans recul de la bombe, le nombre d’éthers créés par bloc sera baissé de 5 à 3.</span></p>
+
+[caption id="attachment_2661" align="alignnone" width="944"]<img class="alignnone size-full wp-image-2661" src="https://www.ethereum-france.com/wp-content/uploads/2017/09/display_image.jpg" alt="Webb, James, 1825-1895; Constantinople" width="944" height="628" /> A bit of Constantinople - James Webb 1894[/caption]
+
+<p style="text-align: justify;"><span style="font-weight: 400;">Enfin, l’EPI </span><a href="https://github.com/ethereum/EIPs/issues/684"><span style="font-weight: 400;">684</span></a><span style="font-weight: 400;"> introduit l’impossibilité de déployer un contrat à une adresse ou un autre contrat est déjà déployé. Un tel déploiement est aujourd’hui impossible (collision de hash) mais l’éventualité pourrait se présenter après les changements à venir dans Constantinople.</span></p>
