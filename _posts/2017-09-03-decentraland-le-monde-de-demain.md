@@ -85,4 +85,4 @@ Comme le potentiel est gigantesque, des communautés se forment déjà afin de c
 
 &nbsp;
 
-Je conclut cette note en rappelant que la quantité de travail restant à fournir est gigantesque. Pratiquement toutes les notions évoquées ici ne sont que des concepts, et bon nombre des idées existantes vont devoir faire face à de gros problèmes (techniques, financiers, humains etc…). Pour autant, je pense que ce projet a un fort potentiel, et l'on pourrait là peut-être voir la première application tout public complètement basée sur la blockchain.
+Je conclus cette note en rappelant que la quantité de travail restant à fournir est gigantesque. Pratiquement toutes les notions évoquées ici ne sont que des concepts, et bon nombre des idées existantes vont devoir faire face à de gros problèmes (techniques, financiers, humains etc…). Pour autant, je pense que ce projet a un fort potentiel, et l'on pourrait là peut-être voir la première application tout public complètement basée sur la blockchain.
