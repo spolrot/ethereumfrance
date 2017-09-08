@@ -66,7 +66,7 @@ https://www.youtube.com/watch?v=4diSpNQSDPo
 <ul style="text-align: justify;">
 	<li style="font-weight: 400;"><strong>Nouvelle instruction STATICCALL EIP 214</strong></li>
 </ul>
-<p style="text-align: justify;"><span style="font-weight: 400;">Cette nouvelle instruction garantie qu’aucun modification de l’état n’aura lieu lors de l’appel d’un contrat vers un autre contrat. Cela permet notamment de se prémunir d’autant mieux contre le bug de “reintrancy” (exploité lors du hack de TheDAO).</span></p>
+<p style="text-align: justify;"><span style="font-weight: 400;">Cette nouvelle instruction garantie qu’aucun modification de l’état n’aura lieu lors de l’appel d’un contrat vers un autre contrat. Cela permet notamment de se prémunir d’autant mieux contre le bug de “reentrancy” (exploité lors du hack de TheDAO).</span></p>
 
 <ul style="text-align: justify;">
 	<li style="font-weight: 400;"><strong>Retardement de la bombe de difficulté et réduction du rythme d’émission des éthers EIP 649</strong></li>
