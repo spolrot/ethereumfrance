@@ -73,11 +73,11 @@ Le lien vers la démo : <a href="https://decentraland.org/app/">https://decentr
 
 &nbsp;
 <h2><span style="font-size: 18pt; color: #000000;"><strong>UPDATE : </strong></span></h2>
-Suite aux récents changements de législation sur les ICO en Chine, l'équivalent de 7 Million de dollars ont été renvoyés à l'équipe de DCL. Ils ont donc décidé de faire une "deuxième" ICO mais réservée cette fois-ci seulement aux personnes inscrites sur leur liste blanche (whitelist). Pour plus d'information sur la situation, suivez ce lien : <a href="https://blog.decentraland.org/decentraland-whitelist-a5129c29a8fa">Decentraland Whitelist</a>. Cette ICO n'est pas exactement comme les autres : un montant maximal est réservé pour chaque participant (par exemple 3 Eth) pour le premier jour, puis un second montant maximal est réservé pour le deuxième jour (par exemple 10 Eth) pour chaque participant, et ainsi de suite jusqu'à l'écoulement complet des 7 Millions de $.
+Suite aux récents changements de législation sur les ICO en Chine, l'équivalent de 7M$ ont été retournés aux plateformes chinoises. Ils ont donc décidé de faire une "deuxième" ICO mais réservée cette fois-ci seulement aux personnes inscrites sur leur liste blanche (whitelist). Pour plus d'information sur la situation, suivez ce lien : <a href="https://blog.decentraland.org/decentraland-whitelist-a5129c29a8fa">Decentraland Whitelist</a>. Cette ICO n'est pas exactement comme les autres : un montant maximal est réservé pour chaque participant (par exemple 3 Eth) pour le premier jour, puis un second montant maximal est réservé pour le deuxième jour (par exemple 10 Eth) pour chaque participant, et ainsi de suite jusqu'à l'écoulement complet des 7 Millions de dollars.
 
 &nbsp;
 <h2>Notes de l'auteur :</h2>
-Certains d'entre vous ont déjà dû entendre parler de ce projet ; en effet l'ICO (qui n'a duré que 5 secondes pour ainsi dire) a fait beaucoup de bruit, et beaucoup s'en sont plaints. Cependant comme je l'ai noté plus haut, il existe, pour les plus passionnés d'entre nous, des moyens pour se procurer du MANA.
+Certains d'entre vous ont déjà dû entendre parler de ce projet ; en effet l'ICO (qui n'a duré que quelques secondes) a fait beaucoup de bruit, et beaucoup s'en sont plaints. Cependant comme je l'ai noté plus haut, il existe, pour les plus passionnés d'entre nous, des moyens pour se procurer du MANA.
 
 Bien entendu, on ne peut évoquer ce projet sans que le fameux jeu Second Life ne nous vienne à l'esprit. Pour autant, la liberté totale du monde de Decentraland ainsi que l'immersion en 3D devrait faire vivre une toute nouvelle expérience à tous les utilisateurs ayant déjà joué à SL.
 
