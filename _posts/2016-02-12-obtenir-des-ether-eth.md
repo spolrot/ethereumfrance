@@ -10,23 +10,28 @@ published: true
 post_date: 2016-02-12 23:35:06
 ---
 Si vous souhaitez vous procurer des ethers (ETH ou Ξ), pour payer des transactions sur la <a href="http://www.ethereum-france.com/quest-ce-que-lethereum/"><span style="text-decoration: underline;">blockchain Ethereum</span></a> ou simplement <a href="http://www.ethereum-france.com/avertissement-au-daytraders-en-herbe/"><span style="text-decoration: underline;">pour spéculer</span></a>, vous pouvez utiliser les méthodes suivantes :
+
 <ul>
-	<li>L’achat contre des euros ou une autre cryptomonnaie</li>
-	<li>Le « mining »</li>
-	<li>Le « <em>faucet</em>»</li>
-	<li>Les dons/échanges.</li>
+    <li>L’achat contre des euros ou une autre cryptomonnaie.</li>
+    <li>Le « mining ».</li>
+    <li>Les dons/échanges.</li>
 </ul>
+
 Cet article présente rapidement ces méthodes.
 
 <!--more-->
 
 De façon générale, les ethers que vous vous procurez devront être « stockés » quelque part. Pour cela, je vous conseille de créer une portefeuille (wallet), selon <a href="http://www.ethereum-france.com/creer-et-gerer-son-portefeuille-dether-en-2-minutes-avec-myetherwallet-com/">ces instructions</a>.
+
 <h4><strong>1. L’achat d’<em>ether</em></strong></h4>
+
 L’achat d’<em>ether</em> peut s'effectuer de deux façon :
+
 <ul>
-	<li>passer par une plateforme d’échange sur laquelle vous allez effectuer un virement avant d’acheter les ethers.</li>
-	<li>acheter directement des ethers par carte bleue ou carte prépayée contre une commission.</li>
+    <li>passer par une plateforme d’échange sur laquelle vous allez effectuer un virement avant d’acheter les ethers.</li>
+    <li>acheter directement des ethers par carte bleue ou carte prépayée contre une commission.</li>
 </ul>
+
 La solution la plus rapide est la seconde (quelques heures entre le début de la procédure et la réception des ethers), mais elle coûte un petit peu plus cher puisque vous allez payer la commission du site d’achat. La plateforme d’échange et la plus économique mais la procédure est plus complexe et surtout plus longue (comptez 2 à 3 jours au minimum entre le début de la procédure et vos premiers achats).
 
 <strong>1.1. Achat d'ether par carte bleue, VISA, Mastercard ou Néosurf</strong>
@@ -45,24 +50,37 @@ L'achat d'ether sur une place de marchést relativement simple car la monnaie es
 Par principe, considérez donc que laisser de l’argent, même virtuel, dans une plateforme d’échange est risqué. Cependant, rien ne vous oblige à laisser vos <em>ether</em> sur le site une fois ceux-ci obtenus contre monnaie sonnante et trébuchante, c’est même déconseillé si vous ne souhaitez pas vous lancer dans le <em>trading</em>.
 
 Les deux principales « places de marché » où acheter de l’ether sont aujourd'hui les sites internet Kraken et Poloniex. Si vous êtes en Europe (ce qui est probablement le cas si vous lisez ce site), les deux plateformes s'adressent selon moi à deux publics différents.
+
 <ul>
-	<li><strong><a href="http://www.kraken.com">Kraken</a></strong>. Si vous souhaitez acheter des <em>ether</em> le plus simplement et facilement possible, je vous recommande Kraken. Cette plateforme bénéficie d'une excellente réputation. Créé en 2011, le site est basé à San Franciso et est la plus importante bourse d'échange en euros pour les cryptomonnaies. Ils acceptent depuis plus récemment les dollars, les livres sterling et les yens. Le processus d'inscription est très simple et nécessite seulement un scan d’une pièce d’identité (voir le pas-à-pas ici), et les dépôts depuis la zone euro se font selon la norme de virements SEPA, de façon rapide, gratuite et sécurisée.</li>
+    <li><strong><a href="http://www.kraken.com">Kraken</a></strong>. Si vous souhaitez acheter des <em>ether</em> le plus simplement et facilement possible, je vous recommande Kraken. Cette plateforme bénéficie d'une excellente réputation. Créé en 2011, le site est basé à San Franciso et est la plus importante bourse d'échange en euros pour les cryptomonnaies. Ils acceptent depuis plus récemment les dollars, les livres sterling et les yens. Le processus d'inscription est très simple et nécessite seulement un scan d’une pièce d’identité (voir le pas-à-pas ici), et les dépôts depuis la zone euro se font selon la norme de virements SEPA, de façon rapide, gratuite et sécurisée.</li>
 </ul>
+
 <img class="aligncenter wp-image-27 size-large" src="http://www.ethereum-france.com/wp-content/uploads/2016/02/Capture-décran-2016-02-02-22.24.46-1024x559.png" alt="Capture d'écran 2016-02-02 22.24.46" width="660" height="360" />
+
 <p style="padding-left: 60px;">Le site n'a jamais connu de problème de fraude, vol de monnaie, etc. (contrairement à des plateformes comme <a href="http://www.nextinpact.com/news/98112-cryptsy-menace-fermeture-an-apres-vol-13-000-bitcoins.htm">Cryptsy</a> ou <a href="http://www.nextinpact.com/news/86328-poloniex-victime-dun-vol-bitcoins-moscovici-plaide-pour-cadre-strict.htm">Poloniex</a>) et est adossé à une "vraie" banque (Fidor Bank, en Allemagne). Si vous souhaitez acheter des ether en monnaie réelle, c’est la solution à privilégier aujourd’hui dans la mesure où le site est le seul à permettre l’échange direct euro/ether ou dollar/ether.</p>
+
 <p style="padding-left: 60px;">Mais la société a récemment subi une panne importante pendant une période d'intense activité de trading en Ether. Personnellement, cela ne m'a pas affecté (je ne pratique pas le trading), mais c'est une information à prendre en compte si vous pensez faire du <em>trading</em> d'ether. Dans ce dernier cas, je ne peux pas aujourd'hui recommander Kraken.</p>
+
 <p style="padding-left: 60px;">En synthèse : rapide, clair et pratique, idéal pour un débutant, permet l’achat d’<em>ether</em> contre des euros, mais non-recommandé à long terme si votre objectif est le <em>trading</em>.</p>
+
 <p style="padding-left: 60px;">Les instructions détaillées pour utiliser cette place de marché sont disponibles <a href="http://www.ethereum-france.com/comment-acheter-des-ethers-eth/"><span style="text-decoration: underline;">sur cet article</span></a>.</p>
 
 <ul>
-	<li><strong><a href="https://poloniex.com">Poloniex</a></strong>. Si vous souhaiter faire du "day-trading" entre <em>ethers</em> et d'autres cryptomonnaies (probablement le Bitcoin), Poloniex semble aujourd’hui la meilleure plateforme. C'est la première plateforme d'échange d'ether au monde en terme de volumes. Le site concentre environ 50 % des échanges mondiaux.</li>
+    <li><strong><a href="https://poloniex.com">Poloniex</a></strong>. Si vous souhaiter faire du "day-trading" entre <em>ethers</em> et d'autres cryptomonnaies (probablement le Bitcoin), Poloniex semble aujourd’hui la meilleure plateforme. C'est la première plateforme d'échange d'ether au monde en terme de volumes. Le site concentre environ 50 % des échanges mondiaux.</li>
 </ul>
+
 <img class="aligncenter wp-image-28 size-large" src="http://www.ethereum-france.com/wp-content/uploads/2016/02/Capture-décran-2016-02-02-22.23.48-1024x559.png" alt="capture d'écran du site Poloniex" width="660" height="360" />
+
 <p style="padding-left: 60px;">Inconvénient : le site n’accepte pas les dépôts en monnaie « réelle » et il faudra passer par un autre site d’échange (Kraken par exemple, ou encore Coinbase) pour convertir des euros en BitCoin avant d’envoyer ces BitCoin à Poloniex. C’est donc beaucoup plus contraignant, mais vous accédez à un marché beaucoup plus dynamique. Pour le trading, soit l’achat-revente d’ethers à intervalles courts, c’est sans doute le meilleur marché.</p>
-<p style="padding-left: 60px;">Pour le reste, le site est un peu moins clair que son homologue Kraken mais on s’y retrouve très vite pour déposer des BitCoins et procéder aux premiers échanges. Il est relativement aisé de passer des ordres simples ou complexes.</p>
-<p style="padding-left: 60px;">Depuis ces deux sites, il est bien entendu possible (et recommandé) d’envoyer l’ether dans un portefeuille (account) personnel, afin qu’il soit en sécurité. Pour cela, il suffit <a href="http://www.ethereum-france.com/creer-et-gerer-son-portefeuille-dether-en-2-minutes-avec-myetherwallet-com/"><span style="text-decoration: underline;">de suivre ces instructions</span></a>.</p>
+
+<p style="padding-left: 60px;">Pour le reste, le site est un peu moins clair que son homologue Kraken mais on s’y retrouve très vite pour déposer des bitcoin et procéder aux premiers échanges. Il est relativement aisé de passer des ordres simples ou complexes.</p>
+
+<p style="padding-left: 60px;">Depuis ces deux sites, il est bien entendu possible (et recommandé) d’envoyer l’ether dans un portefeuille (wallet) personnel, afin qu’il soit en sécurité. Pour cela, il suffit <a href="http://www.ethereum-france.com/creer-et-gerer-son-portefeuille-dether-en-2-minutes-avec-myetherwallet-com/"><span style="text-decoration: underline;">de suivre ces instructions</span></a>.</p>
+
 <strong>Pour plus de détails, veuillez vous reporter <a href="http://www.ethereum-france.com/comment-acheter-des-ethers-eth/"><span style="text-decoration: underline;">à l'article dédié à l'achat d'ether</span></a>.</strong>
+
 <h4><b>2. Le "mining"</b></h4>
+
 Le « <em>mining </em>» consiste à utiliser la puissance de calcul de votre ordinateur pour contribuer à la maintenance du réseau « ethereum ». Avec votre processeur (CPU) ou votre carte graphique (GPU), votre machine va permettre au réseau de valider les transactions, faire fonctionner les « smart contracts » sur la base des instructions qui auront été données par les utilisateurs (envoyer x ehther à l’adresse y, afficher a si la condition b est remplie…).
 
 En contrepartie du travail effectué par votre ordinateur, vous êtes « rémunérée », c’est à dire que le système va vous attribuer des <em>ether</em> correspondant à la puissance de calcul déployée. Lorsque vous « minez », vous indiquez l’adresse sur laquelle les gains du minage doivent être envoyés, et lorsque certaines conditions sont remplies (un « bloc » est « découvert »), vous recevez un certain nombre d’<em>ether</em>.
@@ -74,24 +92,11 @@ En pratique, le « <em>mining </em>» est techniquement complexe et nécessite
 Enfin, il faut préciser qu’il est aujourd’hui prévu que la phase de « <em>mining </em>» s’arrête après un certain temps, après lequel le réseau rémunèrera différemment les mineurs (le « <em>proof of stake </em>» ou « PoS<em> </em>»). Le fonctionnement exact de la phase de PoS n'est pas encore clairement définie mais il s'agira à priori d'obtenir un rendement en pourcentage d'ether détenus en échange de la maintenance du réseau.
 
 Si l’option du « <em>mining </em>» vous intéresse, un guide de mining pour Windows <span style="text-decoration: underline;"><a href="http://www.ethereum-france.com/comment-miner-de-lether-eth-windows/">est disponible ici</a></span>.
-<h4><strong>3. Le « <em>faucet </em>»</strong></h4>
-Le « <em>faucet </em>» est une façon simple et gratuite d’obtenir des <em>ethers</em>, mais elle nécessite du temps. Le principe est d’aller sur un site contenant de la publicité, de cliquer à intervalle régulier sur un bouton et d’obtenir des <em>ether</em> en échange. Le rythme de collecte de l’ether est faible. Le gros inconvénient de cette méthode est qu'elle demande une action abrutissante toutes les dix minutes…
 
-Si vous avez beaucoup de temps et peu d’argent, ou si vous souhaitez juste faite quelques tests de smart contracts, c’est un bon moyen d’obtenir de l’ether.
+<h4><strong>3. Les dons ou échanges directs</strong></h4>
 
-Les sites de « <em>faucet </em>» d’ether sont les suivants :
-<ul>
-	<li><a href="http://www.etherfaucet.net?r=0xD95DC4cf508fDDC108709556d0CD70e3F6369C90">etherfaucet.net</a></li>
-	<li><a href="http://ethfaucet.gratis/affiliate/0xD95DC4cf508fDDC108709556d0CD70e3F6369C90">ethfaucet.gratis</a></li>
-	<li><a href="http://www.etherfaucet.org/?r=7086" target="_blank">etherfaucet.org</a>.</li>
-	<li><a href="http://www.ethereumfaucet.org/?r=15193">ethereumfaucet.org</a></li>
-</ul>
-Le principe est simplissime : entrez l’adresse de votre portefeuille, cliquez sur « Claim » et le site vous indique combien vous avez gagné. Vous pouvez répéter l’opération toutes les dix minutes et demander le versement sur votre adresse dès que vous avez atteint 0.1 <em>ether</em> (un lien s’affichera sous le montant pour vous permettre de récupérer la somme).
-
-Par transparence, je vous informe que si vous passez par un lien sur mon site et gagnez de l’<em>ether</em>, je gagnerai aussi de l’<em>ether</em>.
-<h4><strong>4. Les dons ou échanges directs</strong></h4>
 Vous pouvez obtenir de l’<em>ether</em> si quelqu’un vous en envoie. En effet, tout le monde peut effectuer des envois d’<em>ether</em> vers les portefeuilles ou les contrats de son choix.
 
-Il ne reste donc plus qu’à trouver une bonne âme pour vous donner un petit peu d’ether ou bien de vous faire payer pour un service dans cette monnaie ! Il vous suffit de communiquer l’adresse de votre portefeuille (par exemple 0xD95DC4cf508fDDC108709556d0CD70e3F6369C90, mon adresse) à la personne concernée (si vous n'avez pas de portefeuille d'ether, <a href="http://www.ethereum-france.com/creer-et-gerer-son-portefeuille-dether-en-2-minutes-avec-myetherwallet-com/">suivez le lien</a>).
+Il ne reste donc plus qu’à trouver une bonne âme pour vous donner un petit peu d’ether ou bien de vous faire payer pour un service dans cette monnaie ! Il vous suffit de communiquer l’adresse de votre portefeuille (par exemple 0xD95DC4cf50...) à la personne concernée (si vous n'avez pas de portefeuille d'ether, <a href="http://www.ethereum-france.com/creer-et-gerer-son-portefeuille-dether-en-2-minutes-avec-myetherwallet-com/">suivez le lien</a>).
 
 Si vous souhaitez vous-même envoyer de l’<em>ether</em>, vous pouvez utiliser le client officiel (mist, le fonctionnement sera détaillé dans un autre article), ou passer par le site « myetherwallet.com » qui permet d’envoyer de l’<em>ether</em> très facilement (<a href="http://www.ethereum-france.com/creer-et-gerer-son-portefeuille-dether-en-2-minutes-avec-myetherwallet-com/">instructions ici</a>).
