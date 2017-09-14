@@ -44,7 +44,14 @@ post_date: 2017-09-03 18:16:49
 <p style="text-align: justify;">Je précise que les derniers 20% serviront en fait à inciter la communauté à se développer et proposer des idées. Sur <a href="https://github.com/decentraland/proposals">cette</a> page il y a les informations à ce sujet : les utilisateurs faisant des propositions de projets ou d'idées pour Decentraland se verront <strong>attribués du MANA gratuitement</strong>. Une opportunité rêvée pour les retardataires, ou les passionnés fauchés.</p>
 <p style="text-align: justify;">En parlant de proposition de projet, la communauté en a déjà quelques-un en tête : des projets de ville, des projets de zone à gravité nulle, des projets de squats pour laisser libre cours à la créativité des nouveaux arrivants… tout est à faire !</p>
 <p style="text-align: center;">En voici quelques images :</p>
-[gallery ids="2637,2636,2638"]
+[gallery ids="2637,2638"]
+
+&nbsp;
+
+&nbsp;
+<p style="text-align: center;">Et même une vidéo !</p>
+<p style="text-align: center;"><iframe src="//www.youtube.com/embed/32-bcET-XLc" width="560" height="314" allowfullscreen="allowfullscreen"></iframe></p>
+<p style="text-align: center;"><span style="font-size: 10pt;"><em>Merci à Priscilla pour son travail : voici <span style="text-decoration: underline;"><a href="https://www.linkedin.com/in/priscilacoghlan/">ici</a></span> son Linkedin.</em></span></p>
 <p style="text-align: left;">D'autres token MANA devraient être créés dans le futur : ils suivront la distribution ci-dessous.</p>
 
 
