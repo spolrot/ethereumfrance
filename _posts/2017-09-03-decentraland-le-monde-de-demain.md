@@ -44,7 +44,7 @@ post_date: 2017-09-03 18:16:49
 <p style="text-align: justify;">Je précise que les derniers 20% serviront en fait à inciter la communauté à se développer et proposer des idées. Sur <a href="https://github.com/decentraland/proposals">cette</a> page il y a les informations à ce sujet : les utilisateurs faisant des propositions de projets ou d'idées pour Decentraland se verront <strong>attribués du MANA gratuitement</strong>. Une opportunité rêvée pour les retardataires, ou les passionnés fauchés.</p>
 <p style="text-align: justify;">En parlant de proposition de projet, la communauté en a déjà quelques-un en tête : des projets de ville, des projets de zone à gravité nulle, des projets de squats pour laisser libre cours à la créativité des nouveaux arrivants… tout est à faire !</p>
 <p style="text-align: center;">En voici quelques images :</p>
-[gallery ids="2637,2638"]
+[gallery columns="2" ids="2637,2638"]
 
 &nbsp;
 
