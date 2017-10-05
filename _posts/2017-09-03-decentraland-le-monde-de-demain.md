@@ -1,6 +1,6 @@
 ---
 ID: 2621
-post_title: 'DECENTRALAND : le monde de demain (?)'
+post_title: 'DECENTRALAND : le monde de demain ?'
 author: Scott Piriou
 post_excerpt: ""
 layout: post
