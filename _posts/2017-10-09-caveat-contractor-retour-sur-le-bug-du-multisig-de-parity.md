@@ -25,7 +25,7 @@ Le client Parity possède une interface graphique pour générer un Multisig:
 
 [caption id="attachment_2849" align="alignnone" width="1520"]<img class="alignnone size-full wp-image-2849" src="https://www.ethereum-france.com/wp-content/uploads/2017/09/Capture-du-2017-09-27-17-53-56-907506050-1506528111631.png" alt="Parity Multisig.png" width="1520" height="786" /> L'interface graphique de création de Multisig sur Parity[/caption]
 
-Cette interface permet de déployer automatiquement un contrat de multisig paramétré. Dans sa version 1.5, ce processus comportait une vulnérabilité importante que nous allons détaillé.
+Cette interface permet de déployer facilement un contrat de multisig paramétré. Dans sa version 1.5, ce processus comportait une vulnérabilité importante que nous allons détaillé.
 
 Dans <a href="https://github.com/paritytech/parity/blob/4d08e7b0aec46443bf26547b17d10cb302672835/js/src/contracts/snippets/enhanced-wallet.sol#L216">cette version</a> le multisig s'initialise au déploiement en faisant appel à un smartcontrat déjà déployé, la librairie "WalletLibrary". A la ligne 395, le contrat Wallet commence avec la description de son constructor, cette fonction porte le nom du contrat et ne s'exécute qu'une seule fois lors du déploiement. Regardons cette fonction de plus prêt.
 
