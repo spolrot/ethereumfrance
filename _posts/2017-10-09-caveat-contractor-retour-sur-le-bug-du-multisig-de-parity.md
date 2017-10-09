@@ -25,25 +25,25 @@ Le client Parity possède une interface graphique pour générer un Multisig:
 
 [caption id="attachment_2849" align="alignnone" width="1520"]<img class="alignnone size-full wp-image-2849" src="https://www.ethereum-france.com/wp-content/uploads/2017/09/Capture-du-2017-09-27-17-53-56-907506050-1506528111631.png" alt="Parity Multisig.png" width="1520" height="786" /> L'interface graphique de création de Multisig sur Parity[/caption]
 
-Cette interface permet de déployer facilement un contrat de multisig paramétré. Dans sa version 1.5, ce processus comportait une vulnérabilité importante que nous allons détaillé.
+Cette interface permet de déployer facilement un contrat de multisig paramétré qui comportait une vulnérabilité importante dans sa version 1.5 de Parity.
 
-Dans <a href="https://github.com/paritytech/parity/blob/4d08e7b0aec46443bf26547b17d10cb302672835/js/src/contracts/snippets/enhanced-wallet.sol#L216">cette version</a> le multisig s'initialise au déploiement en faisant appel à un smartcontrat déjà déployé, la librairie "WalletLibrary". A la ligne 395, le contrat Wallet commence avec la description de son constructor, cette fonction porte le nom du contrat et ne s'exécute qu'une seule fois lors du déploiement. Regardons cette fonction de plus prêt.
+Dans <a href="https://github.com/paritytech/parity/blob/4d08e7b0aec46443bf26547b17d10cb302672835/js/src/contracts/snippets/enhanced-wallet.sol#L216">cette version</a> le multisig s'initialise au déploiement en faisant appel à un autre contrat déjà déployé, la librairie "WalletLibrary". A la ligne 395, le contrat Wallet commence avec la description de son constructor, cette fonction porte le nom du contrat et ne s'exécute qu'une seule fois lors du déploiement. Regardons cette fonction de plus prêt.
 
-En premier lieu, on passe au constructor les paramètres du futur Multisig, à savoir la listes des propriétaires, le nombre d'avis positifs de propriétaire nécessaire à l'exécution d'une transaction et la limite de transactions par jour.
+En premier lieu, on passe au constructor les paramètres du futur multisig, à savoir la listes des propriétaires, le nombre d'avis positifs de propriétaire nécessaire à l'exécution d'une transaction et la limite de transactions par jour.
 
 En second lieu, le constructor prépare un appel à "WalletLibrary" avec les paramètres indiqués supra. Cette partie du code est très optimisée et se termine en assembleur par l'appel en lui-même <em>delegatecall </em>ligne 417.
 
-Enfin, la conséquence de ce <em>delegatecall</em> est d'exécuter "initWallet" (ligne 216) qui termine d'initialiser le Multisig.
+Enfin, la conséquence de ce <em>delegatecall</em> est d'exécuter "initWallet" (ligne 216) qui termine d'initialiser le multisig.
 
-Simple non? Le déploiement de ce Multisig est très peu coûteux car il se sert d'une librairie pour externaliser son initialisation et ne contient aucune méthode superflue. En effet, si une transaction vers le Multisig contient du code, le traitement de ce code est lui même externalisé vers la librairie (cf.ligne 428)! Au final le Multisig est près de 70% moins cher à déployer.
+Simple non? Le déploiement de ce multisig est très peu coûteux car il se sert d'une librairie pour externaliser son initialisation et ne contient aucune méthode superflue. En effet, si une transaction vers le multisig contient du code, le traitement de ce code est lui même externalisé vers la librairie (cf.ligne 428)! Au final le multisig est près de 70% moins cher à déployer.
 <p style="text-align: center;"><strong>[Alerte Spoiler, le bug exploité est révélé après cette image]</strong></p>
 
 
 [caption id="attachment_media-19" align="alignnone" width="1053"]<img class="alignnone size-full wp-image-2892" src="https://www.ethereum-france.com/wp-content/uploads/2017/10/DCEGihXW0AAvWvn.jpg" alt="DCEGihXW0AAvWvn.jpg" width="1053" height="989" /> <em>What could possibly go wrong?</em>[/caption]
 
-Que ce passe-t-il si quelqu'un envoie au contrat Multisig une transaction contenant des données d'initialisation avec un nouveau et unique propriétaire? Le contrat exécute un delegatecall vers la librairie qui exécute initWallet avec les paramètres reçus, tout simplement. La liste des propriétaires est ni plus ni moins mise à jour! Il ne reste plus qu'à envoyer une transaction ordonnant le transfert des fonds.
+Que ce passe-t-il si quelqu'un envoie au contrat Multisig une transaction contenant des données d'initialisation avec un nouveau et unique propriétaire? Le contrat exécute un <em>delegatecall</em> vers la librairie qui exécute initWallet avec les paramètres reçus, tout simplement. La liste des propriétaires est ni plus ni moins mise à jour! Il ne reste plus qu'à envoyer une transaction ordonnant le transfert des fonds.
 
-Le 18 juillet au bloc <a href="https://etherscan.io/tx/0x0e0d16475d2ac6a4802437a35a21776e5c9b681a77fef1693b0badbb6afdb083">4041179</a>,  une première transaction exploitant ce bug est lancée sur un contrat Multisig, puis deux autres contrats sont compromis aux blocs <a href="https://etherscan.io/tx/0x97f7662322d56e1c54bd1bab39bccf98bc736fcb9c7e61640e6ff1f633637d38">4043791</a> et <a href="https://etherscan.io/tx/0xeef10fc5170f669b86c4cd0444882a96087221325f8bf2f55d6188633aa7be7c">4043802</a>. Au total, 153 037 ETH ont été détournés des Multisig de æternity, Edgeless Casino, et Swarm City par ce  <a href="https://etherscan.io/address/0xb3764761e297d6f121e79c32a65829cd1ddb4d32">compte</a>.
+Le 18 juillet au bloc <a href="https://etherscan.io/tx/0x0e0d16475d2ac6a4802437a35a21776e5c9b681a77fef1693b0badbb6afdb083">4041179</a>,  une première transaction exploitant ce bug est lancée sur un contrat multisig, puis deux autres contrats sont compromis aux blocs <a href="https://etherscan.io/tx/0x97f7662322d56e1c54bd1bab39bccf98bc736fcb9c7e61640e6ff1f633637d38">4043791</a> et <a href="https://etherscan.io/tx/0xeef10fc5170f669b86c4cd0444882a96087221325f8bf2f55d6188633aa7be7c">4043802</a>. Au total, 153 037 ETH ont été détournés des Multisig de æternity, Edgeless Casino, et Swarm City par ce  <a href="https://etherscan.io/address/0xb3764761e297d6f121e79c32a65829cd1ddb4d32">compte</a>.
 
 [gallery ids="2909,2910,2911"]
 
