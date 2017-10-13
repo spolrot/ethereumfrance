@@ -9,7 +9,7 @@ permalink: >
 published: true
 post_date: 2017-10-13 09:44:44
 ---
-Comme prévu (<a href="https://www.ethereum-france.com/une-fork-nommee-byzance-puis-constantinople-et-enfin-metropolis/">et expliqué</a>), la prochaine mise à jour du protocole Ethereum, Byzance, est prévue pour le bloc 4 370 000 de la blockchain Ethereum qui devrait être miné ce lundi entre 14h et 15h, heures de Paris. Cette mise à jour importante en terme de fonctionnalités n'est pas contentieuse et ne donnera pas lieu à création d'une nouvelle cryptomonnaie. La mise à jour des nodes est fortement recommandée.
+Comme prévu (<a href="https://www.ethereum-france.com/une-fork-nommee-byzance-puis-constantinople-et-enfin-metropolis/">et expliqué</a>), la prochaine mise à jour du protocole Ethereum, Byzance, est prévue pour le bloc 4 370 000 de la blockchain qui devrait être miné ce lundi entre 14h et 15h, heures de Paris. Cette mise à jour importante en terme de fonctionnalités n'est pas contentieuse et ne donnera pas lieu à création d'une nouvelle cryptomonnaie. La mise à jour des nodes est fortement recommandée.
 
 <strong>Si vous utilisez un client complet comme Mist ou Parity</strong>, sachez que les principaux ont d'ores et déjà été mis à jour pour supporter le hard-fork. Je vous recommande fortement d'installer ces mises à jour avant lundi pour rester sur la bonne chaine. Si vous mettez à jour après l'heure du hard-fork, vous devrez re-télécharger toute la chaine.
 <ul>
