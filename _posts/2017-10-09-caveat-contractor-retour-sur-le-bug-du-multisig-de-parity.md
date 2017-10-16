@@ -17,7 +17,7 @@ Le 19 juillet un bug a été exploité dans le contrat multisig que permet de d�
 <h2>Multisig: un contrat pour partager le contrôle de ses éthers</h2>
 Les wallets de multisig existent longtemps sur bitcoin, le principe général est de partager entre plusieurs clés le contrôle d'une adresse et donc des bitcoins qui y pointent. On parle alors de signatures M-of-N, ou M-sur-N en français, pour exprimer le fait qu'il faille la signature de M clés sur les N clés qui se partagent le contrôle pour que la transaction émanant de l'adresse multisig soit valide.
 
-Sur Ethereum les wallet multisig prennent la forme de contrats avec leur logique et fonctionnalités propres. Parmi les implémentations les plus populaire on trouve celle de <a href="https://github.com/gnosis/MultiSigWallet">Gnosis</a> avec son interface web et celui <a href="https://github.com/ethereum/dapp-bin/blob/master/wallet/wallet.sol">maintenu par la Fondation Ethereum</a> dont l'auteur n'est autre que <a href="http://gavwood.com/">Gavin Wood</a> - fondateur et CTO de Parity technologies.
+Sur Ethereum les wallet multisig prennent la forme de contrats avec leur logique et fonctionnalités propres. Parmi les implémentations les plus populaires on trouve celle de <a href="https://github.com/gnosis/MultiSigWallet">Gnosis</a> avec son interface web et celui <a href="https://github.com/ethereum/dapp-bin/blob/master/wallet/wallet.sol">maintenu par la Fondation Ethereum</a> dont l'auteur n'est autre que <a href="http://gavwood.com/">Gavin Wood</a> - fondateur et CTO de Parity technologies.
 
 &nbsp;
 <h2>Le multisig de Parity, un contrat de qualité mais mal déployé</h2>
@@ -27,21 +27,21 @@ Le client Parity possède une interface graphique pour générer un Multisig:
 
 Cette interface permet de déployer facilement un contrat de multisig paramétré qui comportait une vulnérabilité importante dans sa version 1.5 de Parity.
 
-Dans <a href="https://github.com/paritytech/parity/blob/4d08e7b0aec46443bf26547b17d10cb302672835/js/src/contracts/snippets/enhanced-wallet.sol#L216">cette version</a> le multisig s'initialise au déploiement en faisant appel à un autre contrat déjà déployé, la librairie "WalletLibrary". A la ligne 395, le contrat Wallet commence avec la description de son constructor, cette fonction porte le nom du contrat et ne s'exécute qu'une seule fois lors du déploiement. Regardons cette fonction de plus prêt.
+Dans <a href="https://github.com/paritytech/parity/blob/4d08e7b0aec46443bf26547b17d10cb302672835/js/src/contracts/snippets/enhanced-wallet.sol#L216">cette version</a> le multisig s'initialise au déploiement en faisant appel à un autre contrat déjà déployé, la librairie "WalletLibrary". A la ligne 395, le contrat Wallet commence avec la description de son constructor, cette fonction porte le nom du contrat et ne s'exécute qu'une seule fois lors du déploiement. Regardons cette fonction de plus près.
 
-En premier lieu, on passe au constructor les paramètres du futur multisig, à savoir la listes des propriétaires, le nombre d'avis positifs de propriétaire nécessaire à l'exécution d'une transaction et la limite de transactions par jour.
+En premier lieu, on passe au constructor les paramètres du futur multisig, à savoir la listes des propriétaires, le nombre d'avis positifs de propriétaires nécessaires à l'exécution d'une transaction et la limite de transactions par jour.
 
 En second lieu, le constructor prépare un appel à "WalletLibrary" avec les paramètres indiqués supra. Cette partie du code est très optimisée et se termine en assembleur par l'appel en lui-même <em>delegatecall </em>ligne 417.
 
 Enfin, la conséquence de ce <em>delegatecall</em> est d'exécuter "initWallet" (ligne 216) qui termine d'initialiser le multisig.
 
-Simple non? Le déploiement de ce multisig est très peu coûteux car il se sert d'une librairie pour externaliser son initialisation et ne contient aucune méthode superflue. En effet, si une transaction vers le multisig contient du code, le traitement de ce code est lui même externalisé vers la librairie (cf.ligne 428)! Au final le multisig est près de 70% moins cher à déployer.
+Simple non? Le déploiement de ce multisig est très peu coûteux car il se sert d'une librairie pour externaliser son initialisation et ne contient aucune méthode superflue. En effet, si une transaction vers le multisig contient du code, le traitement de ce code est externalisé vers la librairie (cf.ligne 428)! Au final le multisig est près de 70% moins cher à déployer.
 <p style="text-align: center;"><strong>[Alerte Spoiler, le bug exploité est révélé après cette image]</strong></p>
 
 
 [caption id="attachment_media-19" align="alignnone" width="1053"]<img class="alignnone size-full wp-image-2892" src="https://www.ethereum-france.com/wp-content/uploads/2017/10/DCEGihXW0AAvWvn.jpg" alt="DCEGihXW0AAvWvn.jpg" width="1053" height="989" /> <em>What could possibly go wrong?</em>[/caption]
 
-Que ce passe-t-il si quelqu'un envoie au contrat Multisig une transaction contenant des données d'initialisation avec un nouveau et unique propriétaire? Le contrat exécute un <em>delegatecall</em> vers la librairie qui exécute initWallet avec les paramètres reçus, tout simplement. La liste des propriétaires est ni plus ni moins mise à jour! Il ne reste plus qu'à envoyer une transaction ordonnant le transfert des fonds.
+Que se passe-t-il si quelqu'un envoie au contrat Multisig une transaction contenant des données d'initialisation avec un nouveau et unique propriétaire? Le contrat exécute un <em>delegatecall</em> vers la librairie qui exécute initWallet avec les paramètres reçus, tout simplement. La liste des propriétaires est ni plus ni moins mise à jour! Il ne reste plus qu'à envoyer une transaction ordonnant le transfert des fonds.
 
 Le 18 juillet au bloc <a href="https://etherscan.io/tx/0x0e0d16475d2ac6a4802437a35a21776e5c9b681a77fef1693b0badbb6afdb083">4041179</a>,  une première transaction exploitant ce bug est lancée sur un contrat multisig, puis deux autres contrats sont compromis aux blocs <a href="https://etherscan.io/tx/0x97f7662322d56e1c54bd1bab39bccf98bc736fcb9c7e61640e6ff1f633637d38">4043791</a> et <a href="https://etherscan.io/tx/0xeef10fc5170f669b86c4cd0444882a96087221325f8bf2f55d6188633aa7be7c">4043802</a>. Au total, 153 037 ETH ont été détournés des Multisig de æternity, Edgeless Casino, et Swarm City par ce  <a href="https://etherscan.io/address/0xb3764761e297d6f121e79c32a65829cd1ddb4d32">compte</a>.
 
@@ -51,7 +51,7 @@ Hasard ou coïncidence, les 3 compagnies concernées arborent un signe infini da
 
 &nbsp;
 <h2>La réaction de la communauté</h2>
-Au bloc <a href="https://etherscan.io/tx/0x00551b69995fdabb1ae8fc650bee038aecfdeeb2462f97c9c466cdcd4891632f">4044981</a>, soit un peu moins de 5 heures après la dernière transaction de l'attaquant, un groupe de White Hat Hacker a pris l'initiative de vider les autres contrats buggés. Ce groupe a par la suite redéployer des contrats mis à jour de multisig avec les paramètres initiaux et les fonds prélevés
+Au bloc <a href="https://etherscan.io/tx/0x00551b69995fdabb1ae8fc650bee038aecfdeeb2462f97c9c466cdcd4891632f">4044981</a>, soit un peu moins de 5 heures après la dernière transaction de l'attaquant, un groupe de White Hat Hackers a pris l'initiative de vider les autres contrats buggés. Ce groupe a par la suite redéployé des contrats mis à jour de multisig avec les paramètres initiaux et les fonds prélevés
 
 Question en suspens, pourquoi n'avoir attaqué que ces 3 contrats ? En effet, les autres comptes vulnérables possédaient près de 78 million de dollars en tokens et plus de 377,105 ETH. Aversion particulière pour le signe ∞ ? Peur d'une fork ? Le mystère reste entier.
 
