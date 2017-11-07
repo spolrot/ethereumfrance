@@ -9,6 +9,7 @@ permalink: >
 published: true
 post_date: 2017-05-15 09:30:06
 ---
+<em>L'article a été partiellement mis à jour le 07.11.2017</em>
 <h1><strong>Introduction</strong></h1>
 Le minage d’Ethereum a pas mal évolué en peu de temps, et il y a eu beaucoup de questions dans les commentaires sur les précédents tutos. Si je fais l’effort de répondre le plus rapidement et le plus souvent possible, force est de constater que souvent les mêmes questions reviennent. J’ai donc rédigé un nouvel article pour tenter de répondre à un maximum de questions, sur le matériel, sur les manières de miner, sur la rentabilité. Cet article propose également un tuto pour utiliser un logiciel aujourd’hui fréquemment utilisé sous Windows. Afin de ne pas écrire une encyclopédie, seule cette méthode pour miner sera expliquée, ainsi que son utilisation sur 3 pools. Il est possible de miner avec d’autres logiciels, de manière différente, mais les pools l’expliquent presque tous très bien, et un mauvais niveau d’anglais suffit à comprendre quoi faire.
 
@@ -33,6 +34,8 @@ Je préfère vous prévenir tout de suite : miner sur Ethereum est devenu incro
  	<li>à la date du 18/03/2017, <strong>j’obtenais environ 0.1 ETH en 1 journée</strong>, soit 10 jours pour atteindre 1ETH</li>
  	<li>à la date d’aujourd’hui (12/05/2017), <strong>j’obtiens environ 0.085 ETH en 1 journée</strong>, soit 12 jours pour atteindre 1ETH.</li>
 </ul>
+<em>[Edit 07.11.2017] : Actuellement, avec 6 GTX1060, il faut plus d'1 mois pour avoir 1ETH.</em>
+
 Depuis la flambée récente du cours, plein de gens se découvrent mineurs et plein de gros mineurs ont réinvestit. Or plus il y a de machines qui minent, plus c’est dur de miner donc moins l’on gagne d’ether pour ce que l’on participe. Faites bien votre calcul avant de vous lancer, il existe bien évidemment un risque financier et ça n’est pas moi qui serait responsable de vos pertes financières s’il devait y en avoir !
 
 Petit exemple de calcul volontairement simpliste pour vous permettre de mieux cerner la problématique :
@@ -70,6 +73,7 @@ Nous allons maintenant entrer dans le vif du sujet et présenter un logiciel qui
 <ul>
  	<li>Pour les possesseurs de cartes <strong>AMD jusqu’à R9</strong>, <strong>n’utilisez pas les pilotes Catalyst 16.3</strong>, ils feront chuter votre Hashrate. Préférez les 15.11 que l’on peut trouver sur le site Guru3D par exemple.</li>
  	<li>Pour les possesseurs de <strong>AMD RX</strong>, prenez les 16.12.2, disponibles également sur le site de Guru3D.</li>
+ 	<li><em>[Edit 07.11.2017] Il existe maintenant officiellement des pilotes <a href="http://support.amd.com/en-us/kb-articles/Pages/Radeon-Software-Crimson-ReLive-Edition-Beta-for-Blockchain-Compute-Release-Notes.aspx">Radeon Software Crimson ReLive Edition Beta for Blockchain Compute</a>.</em></li>
  	<li><strong>Désactivez le SLI/Crossfire</strong> pour pouvoir bénéficier de la puissance de chaque carte graphique, c’est plus intéressant.</li>
  	<li>Quel que soit le logiciel que vous utilisez, <strong>soyez patients,</strong> <strong>utilisez l’aide du programme </strong>avant de venir demander de l’aide.</li>
  	<li>Il existe des <strong>FAQ et des pages Help</strong> sur les sites de chaque pool. Utilisez de préférence ce qu’ils vous recommandent. Évidemment, c’est en anglais, mais si vous vous lancez dans le minage, il est préférable d’avoir quelques connaissances en anglais, en commandes MS-DOS et en dépatouillages et petits bidouillages de programmes.</li>
@@ -290,7 +294,7 @@ Dans mon précédent tuto, j’avais fait un petit script BAT pour lancer CUDAmi
 
 Actuellement, j’utilise 2 PC pour miner. Il m’arrive aussi de miner autre chose qu’Ethereum. Comme je me débrouille pas trop mal sur Excel et VBA, je me suis fait une feuille avec une petite macro pour lancer/éteindre/redémarrer mes logiciels. C’est beaucoup plus souple à utiliser :
 
-Dans l’onglet « Configuration des programmes » je peux écrire 30 configs différentes pointant vers des logiciels différents. Je mets une description de la ligne de commande histoire de la retrouver dans l’onglet « Start » (obligatoire et attention à ne pas mettre 2 fois la même chose), j’écris le logiciel concerné et sa version (optionnel), j’entre le chemin qui permettra à Excel de retrouver l’exécutable du logiciel (obligatoire), j’écris le nom exact de l’exécutable (obligatoire) et dans la dernière colonne je mets tous les arguments nécessaires pour le lancement du programme (obligatoire, et toujours démarrer par un espace). L’avantage, c’est que les copier/coller de paramètres sont faciles et rapides entre les configs pour tester plusieurs arguments, plusieurs optimisations, etc.
+Dans l’onglet « Configuration des programmes » je peux écrire 30 configs différentes pointant vers des logiciels différents. Je mets une description de la ligne de commande histoire de la retrouver dans l’onglet « Start » (obligatoire et attention à ne pas mettre 2 fois la même chose), j’écris le logiciel concerné et sa version (optionnel), j’entre le chemin qui permettra à Excel de retrouver l’exécutable du logiciel (obligatoire), j’écris le nom exact de l’exécutable (obligatoire) et dans la dernière colonne je mets tous les arguments nécessaires pour le lancement du programme (obligatoire, et il faut démarrer nécessairement par un espace). L’avantage, c’est que les copier/coller de paramètres sont faciles et rapides entre les configs pour tester plusieurs arguments, plusieurs optimisations, etc.
 
 Dans l’onglet « Start », il y a 3 boutons, une coche et un tableau :
 <ul>
@@ -298,7 +302,7 @@ Dans l’onglet « Start », il y a 3 boutons, une coche et un tableau :
  	<li>Le bouton « Miner », lance 1, 2 ou 3 logiciels choisis au préalable dans le petit tableau en dessous.</li>
  	<li>La coche "minimiser" permet d'indiquer si on veut démarrer le(s) logiciel(s) minimisé(s) ou visible(s).</li>
  	<li>Le bouton « Redémarrage », permet d’arrêter les 1, 2 ou 3 logiciels spécifiés dans le petit tableau puis de les redémarrer (s’ils sont buggés par exemple). Attention, cela n’arrête que les logiciels qui sont spécifiés donc si d’autres sont en fonctionnement, ils ne sont pas arrêtés.</li>
- 	<li>Le bouton « Stop », permet d’arrêter les 1, 2 ou 3 logiciels spécifiés dans le petit tableau</li>
+ 	<li>Le bouton « Stop », permet d’arrêter tous les logiciels listés dans l'onglet "Configuration des programmes".</li>
 </ul>
 Dans cet onglet, il ne faut rien supprimer et ne pas ajouter/supprimer de lignes. J’ai donc mis un mot de passe (Ethereum-France) pour éviter les bêtises accidentelles.
 
