@@ -1,7 +1,7 @@
 ---
 ID: 3020
 post_title: '[ASSETH] DEVCON3: le debrief &#8211; 13 novembre 2017'
-author: Simon Polrot
+author: Asseth
 post_excerpt: ""
 layout: post
 permalink: >
