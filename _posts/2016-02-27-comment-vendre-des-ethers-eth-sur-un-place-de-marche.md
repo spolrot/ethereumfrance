@@ -1,6 +1,8 @@
 ---
 ID: 225
-post_title: Comment vendre des ethers (ETH) ?
+post_title: >
+  Comment vendre des ethers (ETH) ou
+  autres cryptomonnaies ?
 author: Simon Polrot
 post_excerpt: ""
 layout: post
