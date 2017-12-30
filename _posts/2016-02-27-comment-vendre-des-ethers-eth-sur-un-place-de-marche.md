@@ -9,7 +9,7 @@ permalink: >
 published: true
 post_date: 2016-02-27 14:26:25
 ---
-Vous avez des ethers (ETH), <span style="text-decoration: underline;"><a href="http://www.ethereum-france.com/comment-acheter-des-ethers-eth/">achetés</a></span> ou <span style="text-decoration: underline;"><a href="http://www.ethereum-france.com/comment-miner-de-lether-eth-windows/">minés</a></span>, <span style="text-decoration: underline;"><a href="http://www.ethereum-france.com/creer-et-gerer-son-portefeuille-dether-en-2-minutes-avec-myetherwallet-com/">sur votre compte</a></span> (adresse de type 0xD95DC4cf508fDDC108...). Comment vendre ces ethers sur une place de marché ?
+Vous avez des ethers (ETH), <span style="text-decoration: underline;"><a href="http://www.ethereum-france.com/comment-acheter-des-ethers-eth/">achetés</a></span> ou <span style="text-decoration: underline;"><a href="http://www.ethereum-france.com/comment-miner-de-lether-eth-windows/">minés</a></span>, <span style="text-decoration: underline;"><a href="http://www.ethereum-france.com/creer-et-gerer-son-portefeuille-dether-en-2-minutes-avec-myetherwallet-com/">sur votre compte ethereum</a></span> (adresse de type 0xD95DC4cf508fDDC108...). Comment vendre ces ethers sur une place de marché ?
 
 Il est postulé que vous avez déjà créé un site sur la plateforme d'échange Kraken. Si tel n'est pas le cas, <span style="text-decoration: underline;"><a href="http://www.ethereum-france.com/comment-acheter-des-ethers-eth/">les instructions sont ici</a></span>.
 
@@ -27,19 +27,15 @@ Pour envoyer vos ethers, il faut d'abord créer une adresse de réception sur Kr
 </ul>
 En résultat, la page devrait générer une adresse d'ether sur laquelle envoyer vos ether, de type “0x70e11cdf6297aa2a7b...” .
 
-Il vous reste à envoyer la quantité d'ethers que vous souhaitez convertir sur cette addresse. Si vous utilisez le site <em>myetherwallet.com</em>, vous pouvez simplement utiliser la fonction “<em>Send Transaction</em>”  pour transférer les ethers. Le fonctionnement de cette fonction est décrit <span style="text-decoration: underline;"><a href="http://www.ethereum-france.com/creer-et-gerer-son-portefeuille-dether-en-2-minutes-avec-myetherwallet-com/">à la fin de cet article</a></span>.
+Il vous reste à envoyer la quantité d'ethers que vous souhaitez convertir sur cette addresse. Si vous utilisez le site <em>myetherwallet.com</em>, vous pouvez simplement utiliser la fonction “<em>Send Transaction</em>” pour transférer les ethers comme décrit <span style="text-decoration: underline;"><a href="http://www.ethereum-france.com/creer-et-gerer-son-portefeuille-dether-en-2-minutes-avec-myetherwallet-com/">à la fin de cet article</a></span>.
 
 Après quelques minutes / heures, votre compte Kraken devrait afficher votre ether sur la page d'accueil de votre compte.
-<h3>2. Vendre vos ethers sur la plateforme d'échange</h3>
+<h3>2. Vendre vos ether sur la plateforme d'échange</h3>
 Pour vendre vos ether, il faut fonctionner de la même façon que pour en acheter... mais en cliquant sur "<em>Sell</em>" et non sur "<em>Buy</em>".
 
-En pratique :
+<a href="https://www.ethereum-france.com/comment-vendre-des-ethers-eth-sur-un-place-de-marche/vente-ether/" rel="attachment wp-att-3070"><img class="alignright wp-image-3070 size-medium" src="https://www.ethereum-france.com/wp-content/uploads/2016/02/vente-ether-300x166.png" alt="" width="300" height="166" /></a>En pratique :
 <ul>
- 	<li>
-
-[caption id="attachment_229" align="alignright" width="300"]<a href="http://www.ethereum-france.com/wp-content/uploads/2016/02/Capture-décran-2016-02-27-14.07.59.png" rel="attachment wp-att-229"><img class="size-medium wp-image-229" src="http://www.ethereum-france.com/wp-content/uploads/2016/02/Capture-décran-2016-02-27-14.07.59-300x58.png" alt="Un ordre de vente d'ethers" width="300" height="58" /></a> Un ordre de vente d'ethers[/caption]
-
-Cliquez en haut à gauche sur le menu des échanges possibles pour choisir celui que vous souhaitez. Dans cet exemple, nous allons échanger des ETH contre des euros (choisir "<em>ETH/EUR</em>" ).</li>
+ 	<li>Cliquez en haut à gauche sur le menu des échanges possibles pour choisir celui que vous souhaitez. Dans cet exemple, nous allons échanger des ETH contre des euros (choisir "<em>ETH/EUR</em>" ).</li>
  	<li>Cliquez ensuite sur "<em>New Order</em>" .</li>
  	<li>Choisissez "<em>Sell</em>" dans les boutons à gauche, il devrait se colorer en rouge (voir capture ci-contre).</li>
  	<li>Choissez le nombre d'ethers à vendre, le prix de vente (ou indiquez "<em>Market</em>" pour vendre au prix du marché) puis valider la transaction avec "<em>Sell ETH for EUR</em>" .</li>
@@ -61,4 +57,4 @@ Cliquez sur "<em>Funding</em>" .</li>
 </ul>
 Une fois validé, le virement prend environ 48 heures à arriver sur votre compte bancaire.
 
-N'hésitez pas à réagir en commentaires si vous avez des questions !
+N'hésitez pas à réagir en commentaires si vous avez des questions.
