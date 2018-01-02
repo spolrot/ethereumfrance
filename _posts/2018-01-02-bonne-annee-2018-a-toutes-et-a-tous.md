@@ -1,7 +1,7 @@
 ---
 ID: 3088
 post_title: Bonne année 2018 à toutes et à tous !
-author: Simon Polrot
+author: Ethereum France
 post_excerpt: ""
 layout: post
 permalink: >
