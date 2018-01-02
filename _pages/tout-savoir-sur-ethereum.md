@@ -17,6 +17,7 @@ Cette page référence les principaux articles du site. Pour tout comprendre à 
  	<li><a href="https://www.ethereum-france.com/qu-est-ce-qu-une-cryptomonnaie-token-bitcoin-ether-gnt-gno-dgd-plu-rep-rlc/">Qu'est-ce qu'une cryptomonnaie, un token, un actif numérique ?</a></li>
  	<li><a href="https://www.ethereum-france.com/smart-contract-ou-le-contrat-auto-executant/">Qu'est ce qu'un smart-contract ?</a></li>
  	<li><a href="https://www.ethereum-france.com/les-oracles-lien-entre-la-blockchain-et-le-monde/">Qu'est-ce qu'un Oracle ?</a></li>
+ 	<li><a href="https://www.ethereum-france.com/qu-est-ce-qu-un-token-erc20/">Qu'est-ce qu'un token ERC20 ?</a></li>
  	<li>Qu'est-ce qu'une ICO ? (à paraître)</li>
  	<li><a href="https://www.ethereum-france.com/decentralized-autonomous-organization-dao-blockchain/">Qu'est-ce qu'une DAO ou decentralized autonomous organization ?</a>
 <ul>
@@ -26,7 +27,6 @@ Cette page référence les principaux articles du site. Pour tout comprendre à 
 </ul>
 </li>
  	<li><a href="https://www.ethereum-france.com/comptes-transactions-gaz-et-limites-de-gaz-par-bloc-sur-ethereum/">Comptes, transations, gaz et limite de gaz</a></li>
- 	<li>Qu'est-ce qu'un token ERC20 ? (à paraître)</li>
  	<li>Comprendre la blockchain Ethereum (rédaction en cours)
 <ul>
  	<li><a href="https://www.ethereum-france.com/comprendre-la-blockchain-ethereum-introduction/">Introduction</a></li>
