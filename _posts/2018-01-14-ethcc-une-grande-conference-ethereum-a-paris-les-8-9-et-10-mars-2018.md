@@ -2,12 +2,12 @@
 ID: 3128
 post_title: >
   EthCC, une grande conférence Ethereum
-  à Paris les 8, 9 et 10 mars 2017 !
+  à Paris les 8, 9 et 10 mars 2018 !
 author: Asseth
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.ethereum-france.com/ethcc-une-grande-conference-ethereum-a-paris-les-8-9-et-10-mars-2017/
+  https://www.ethereum-france.com/ethcc-une-grande-conference-ethereum-a-paris-les-8-9-et-10-mars-2018/
 published: true
 post_date: 2018-01-14 23:33:45
 ---
