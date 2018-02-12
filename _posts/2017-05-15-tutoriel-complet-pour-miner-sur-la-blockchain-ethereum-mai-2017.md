@@ -9,7 +9,8 @@ permalink: >
 published: true
 post_date: 2017-05-15 09:30:06
 ---
-<em>L'article a été partiellement mis à jour le 07.11.2017</em>
+<em>L'article a été partiellement mis à jour le 07.11.2017. Les dates des seuils de fichier DAG ont été mis à jour le 12.02.2018.
+</em>
 <h1><strong>Introduction</strong></h1>
 Le minage d’Ethereum a pas mal évolué en peu de temps, et il y a eu beaucoup de questions dans les commentaires sur les précédents tutos. Si je fais l’effort de répondre le plus rapidement et le plus souvent possible, force est de constater que souvent les mêmes questions reviennent. J’ai donc rédigé un nouvel article pour tenter de répondre à un maximum de questions, sur le matériel, sur les manières de miner, sur la rentabilité. Cet article propose également un tuto pour utiliser un logiciel aujourd’hui fréquemment utilisé sous Windows. Afin de ne pas écrire une encyclopédie, seule cette méthode pour miner sera expliquée, ainsi que son utilisation sur 3 pools. Il est possible de miner avec d’autres logiciels, de manière différente, mais les pools l’expliquent presque tous très bien, et un mauvais niveau d’anglais suffit à comprendre quoi faire.
 
@@ -52,10 +53,10 @@ Enfin, n’oubliez pas qu’à un moment donné <strong>Ethereum passera d'un sy
 <h1><strong>Matériel pour miner</strong></h1>
 Pour miner sur Ethereum il faut un ordinateur doté d’une carte graphique assez puissante et (actuellement) de 3Go minimum de mémoire vidéo. Il peut être important, si l’on se soucie de ses finances et que l’on paie son électricité, de choisir un matériel qui soit un minimum efficient (calcule vite mais consomme peu d’électricité). Moi je n’ai aucun ami qui travaille chez EDF, snif…
 
-Et pourquoi donc 3Go de mémoire vive embarquée me direz-vous ? En réalité, la mémoire vidéo est nécessaire pour charger un fichier nommé <span style="text-decoration: underline"><a href="https://github.com/ethereum/wiki/wiki/Ethash-DAG">DAG</a></span> qui va permettre de faire les calculs. Et ce fichier est actuellement supérieur à 2Go et grossit petit à petit selon une règle définie à l’avance. La prévision de son évolution de taille est la suivante :
+Et pourquoi donc 3Go de mémoire vive embarquée me direz-vous ? En réalité, la mémoire vidéo est nécessaire pour charger un fichier nommé <span style="text-decoration: underline"><a href="https://github.com/ethereum/wiki/wiki/Ethash-DAG">DAG</a></span> qui va permettre de faire les calculs. Et ce fichier est actuellement supérieur à 2Go et grossit petit à petit selon une règle définie à l’avance. La prévision de son évolution de taille est la suivante (source : <a href="https://investoon.com/tools/dag_size">https://investoon.com/tools/dag_size</a>) :
 <p style="text-align: center">La limite de 2GB a été dépassée à la  mi-décembre 2016
-La limite de 3GB sera dépassée à la mi-Avril 2018
-La limite de 4GB sera dépassée à la mi-septembre 2019</p>
+La limite de 3GB sera dépassée à la fon Avril 2019
+La limite de 4GB sera dépassée à la fin janvier 2021</p>
 <p style="text-align: center"><strong>Si votre carte graphique n’a pas assez de mémoire vidéo pour charger le fichier DAG, vous ne pourrez pas miner avec celle-ci.</strong></p>
 Attention ! Sachez que toutes les cartes graphiques ne sont pas égales. Les vielles cartes genre GTX6xx, 7xx, AMD R7, etc sont plutôt dépassées : vous ne minerez pas très vite et consommerez pas mal de courant (chic, ça chauffe l’appart en hiver !). Les R9, genre R9 290 ou R9 390 sont valables niveau hashrate, mais elles consomment beaucoup d’électricité et chauffent beaucoup. Actuellement, je trouve que les RX470 et 480 sont un bon compromis, d’autant que leur prix devrait prochainement baisser avec l’apparition des RX5xx. Les GTX1070 sont performantes, mais à choisir et à l’heure d’écrire cet article, je préfère 2 RX480 pour le prix d’une GTX1070. En règle générale, plus la carte est récente, plus elle est efficiente. Mais attention, c’est rarement les modèles très hauts de gamme qui sont les meilleurs à ce jeu, car un peu gonflées et du coup gourmandes en électricité. Elles sont même parfois super mauvaises, comme la GTX1080 (aux dernières nouvelles, la mémoire GDDR5x qu'elle embarque n'est pas très bonne pour miner).
 
