@@ -17,6 +17,22 @@ L'association Asseth a le plaisir de vous convier à ce meetup, qui traitera des
 </ul>
 Un grand merci à Octo technology pour l'hosting du meetup (ainsi que pour l'apéro)
 
-N'oubliez pas de vous munir de votre pièce d'identité
+N'oubliez pas de vous munir de votre pièce d'identité.
 
 <strong>Lien d'inscription au meetup (obligatoire) : <a href="https://www.meetup.com/fr-FR/blockchains/events/247808528/">https://www.meetup.com/fr-FR/blockchains/events/247808528/</a></strong>
+
+<strong>Date</strong> : 22 février 2018
+<div class="chunk">
+<div class="eventDateTime--hover EVENT_DATE_TIME_CLASS popover" aria-haspopup="true">
+<div class="popover-trigger" tabindex="0">
+<div class="flex flex--row eventDateTime--hover EVENT_DATE_TIME_CLASS">
+<div class="flex-item">
+<div class="eventTimeDisplay"><time datetime="1519320600000"><span class="eventTimeDisplay-startDate"><strong>Heure</strong> : <span class="eventTimeDisplay-startDate-time">18:30</span></span><span class="eventTimeDisplay-endDate"> à <span class="eventTimeDisplay-endDate-partialTime">21:00</span></span></time>
+<p class="link"><strong>Lieu</strong> : Octo Technology - 34 Avenue de l'Opéra · Paris</p>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
