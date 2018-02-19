@@ -16,7 +16,7 @@ L'ether (ETH) est <a href="https://www.ethereum-france.com/qu-est-ce-qu-une-cryp
 </ul>
 La solution la plus rapide est la première (quelques heures entre le début de la procédure et la réception des ethers), mais elle coûte plus cher puisque vous allez payer la commission du site d'achat (4,9 %). La plateforme d'échange est la plus économique mais la procédure est plus complexe et surtout plus longue (comptez une semaine au minimum entre le début de la procédure et vos premiers achats).
 <h1>I. Achat par carte bleue</h1>
-La principale plateforme permettant l'achat direct d'ethers par carte bleue est <span style="text-decoration: underline;"><a href="https://www.coinhouse.io/r/15461">Coinhouse</a></span>.
+La principale plateforme permettant l'achat direct d'ethers par carte bleue est <span style="text-decoration: underline;"><a href="https://www.coinhouse.com/r/15461">Coinhouse</a></span>.
 
 <em>Avertissement : je suis rémunéré par une commission sur les frais d'achat facturés par Coinhouse si vous passez par un lien sur ce site pour créer votre compte.
 </em>
@@ -25,7 +25,7 @@ La principale plateforme permettant l'achat direct d'ethers par carte bleue est 
 
 La création du compte est très simple.
 <ul>
- 	<li><a href="https://www.coinhouse.io/r/15461"><span style="text-decoration: underline;">Cliquez ici</span></a> pour accéder à la page d'accueil du site.</li>
+ 	<li><a href="https://www.coinhouse.com/r/15461"><span style="text-decoration: underline;">Cliquez ici</span></a> pour accéder à la page d'accueil du site.</li>
  	<li>Cliquez sur "<em>Créer son compte et acheter des bitcoin</em>" (l'intitulé n'a pas encore été changé, mais je vous confirme que vous pourrez acheter des ether)</li>
  	<li>Entrez votre adresse email et choisissez un mot de passe.</li>
  	<li>Validez par <em>Enregistrement</em>.</li>
@@ -59,7 +59,7 @@ Pour acheter les ethers, connectez-vous au site avec votre compte fraîchement v
  	<li><a href="http://www.ethereum-france.com/wp-content/uploads/2016/03/Coinhouse-achat-dethers.png" rel="attachment wp-att-353"><img class="alignright wp-image-353" src="http://www.ethereum-france.com/wp-content/uploads/2016/03/Coinhouse-achat-dethers-300x117.png" alt="Coinhouse - achat d'ethers" width="356" height="139" /></a>Cliquez sur <em>Acheter des ethers</em>.</li>
  	<li>Choisissez la méthode de paiement, le nombre d'ethers et l'adresse de réception (votre wallet - si vous n'en possédez pas encore, <a href="http://www.ethereum-france.com/creer-et-gerer-son-portefeuille-dether-en-2-minutes-avec-myetherwallet-com/"><span style="text-decoration: underline;">suivez ce guide</span></a>).</li>
  	<li>Validez avec <em>Continuer</em> puis <em>Confirmer et payer en carte</em>.</li>
- 	<li>Entrez les informations de votre carte bleue, VISA ou Mastercard.</li>
+ 	<li>Entrez les informations de votre carte bleue, VISA ou MasterCard.</li>
  	<li>Vous arrivez sur une page de confirmation (voir ci-dessous) et les ethers sont crédités sur votre wallet dans les 5 minutes qui suivent.</li>
 </ul>
 <h1>II. Achat sur une plateforme d'échange</h1>
