@@ -11,12 +11,12 @@ post_date: 2016-02-13 10:48:55
 ---
 L'ether (ETH) est <a href="https://www.ethereum-france.com/qu-est-ce-qu-une-cryptomonnaie-token-bitcoin-ether-gnt-gno-dgd-plu-rep-rlc/"><span style="text-decoration: underline;">l'actif numérique (cryptomonnaie ou jeton)</span></a> de la blockchain Ethereum ; utilisé par les dApps notamment. Pour acheter des ethers contre des euros ou des dollars (<em>fiat currency</em>), il y a deux solutions :
 <ul>
- 	<li>passer par une plateforme d’échange sur laquelle vous allez effectuer un virement avant d'acheter les ethers.</li>
  	<li>acheter directement des ethers par carte bleue ou carte prépayée contre une commission.</li>
+ 	<li>passer par une plateforme d’échange sur laquelle vous allez effectuer un virement avant d'acheter les ethers.</li>
 </ul>
-La solution la plus rapide est la seconde (quelques heures entre le début de la procédure et la réception des ethers), mais elle coûte plus cher puisque vous allez payer la commission du site d'achat (entre 6 et 10 %). La plateforme d'échange est la plus économique mais la procédure est plus complexe et surtout plus longue (comptez 2 à 3 jours au minimum entre le début de la procédure et vos premiers achats).
+La solution la plus rapide est la première (quelques heures entre le début de la procédure et la réception des ethers), mais elle coûte plus cher puisque vous allez payer la commission du site d'achat (4,9 %). La plateforme d'échange est la plus économique mais la procédure est plus complexe et surtout plus longue (comptez une semaine au minimum entre le début de la procédure et vos premiers achats).
 <h1>I. Achat par carte bleue</h1>
-A ce jour, la seule plateforme permettant l'achat direct d'ethers par carte bleue est <span style="text-decoration: underline;"><a href="https://www.coinhouse.io/r/15461">Coinhouse</a></span>. Je mettrai mon article à jour si d'autres sites ajoutent cette fonctionnalité.
+La principale plateforme permettant l'achat direct d'ethers par carte bleue est <span style="text-decoration: underline;"><a href="https://www.coinhouse.io/r/15461">Coinhouse</a></span>.
 
 <em>Avertissement : je suis rémunéré par une commission sur les frais d'achat facturés par Coinhouse si vous passez par un lien sur ce site pour créer votre compte.
 </em>
@@ -32,7 +32,7 @@ La création du compte est très simple.
 </ul>
 Vous allez rapidement recevoir un email <em>Instruction de confirmation</em> de la part du site. Validez votre inscription en cliquant que le lien présent dans l'email, et connectez-vous à votre compte avec l'email et le mot de passe choisi.
 
-Une fois arrivé sur la page ci-dessous :<a href="http://www.ethereum-france.com/wp-content/uploads/2016/03/Coinhouse-connexion.png" rel="attachment wp-att-348"><img class="aligncenter wp-image-348 size-large" src="https://www.ethereum-france.com/wp-content/uploads/2016/03/Coinhouse-connexion-1024x451.png" alt="Coinhouse - connexion" width="1024" height="451" /></a>
+Une fois arrivé sur la page ci-dessous :<a href="https://www.ethereum-france.com/comment-acheter-des-ethers-eth/capture-decran-2018-02-19-13-57-46/" rel="attachment wp-att-3169"><img class="aligncenter wp-image-3169 size-large" src="https://www.ethereum-france.com/wp-content/uploads/2016/02/Capture-décran-2018-02-19-13.57.46-1024x556.png" alt="" width="1024" height="556" /></a>
 <ul>
  	<li>Cliquez sur <em>Vérification de votre compte.</em></li>
  	<li>Vous devez alors fournir les éléments suivants :
@@ -46,10 +46,10 @@ Une fois arrivé sur la page ci-dessous :<a href="http://www.ethereum-france.com
 </ul>
 </li>
  	<li>Validez avec <em>Suivant</em>.</li>
- 	<li>Fournissez ensuite votre adresse et un justificatif de domicile (facture d'électricité, gaz, téléphone, etc.).</li>
+ 	<li>Fournissez ensuite votre adresse, un justificatif de domicile de moins de trois mois (facture d'électricité, gaz, téléphone, etc.), ainsi que votre numéro de téléphone.</li>
  	<li>Validez avec <em>Suivant</em> puis <em>Sauvegarder</em>.</li>
 </ul>
-Après un délai relativement court (1 heure pour moi), l'ensemble de ces éléments seront validés manuellement par le site et vous serez autorisés à acheter des ethers. Vous recevez à ce moment un email de la part de coinhouse intitulé fort à propos <em>Votre compte a été validé !</em>
+Après un délai relativement court (quelques heures à quelques jours au plus), l'ensemble de ces éléments seront validés manuellement par l'équipe de <em>coinhouse</em> et vous serez autorisés à acheter des ethers. Vous recevez à ce moment un email intitulé fort à propos <em>Votre compte a été validé !</em>
 <h3><strong>2. Acheter des ethers
 </strong></h3>
 Pour acheter les ethers, connectez-vous au site avec votre compte fraîchement validé. Vous arrivez sur la page ci-dessous.
@@ -83,8 +83,6 @@ Les étapes de l'inscription sont les suivantes :
 <ol start="5">
  	<li>Vous arrivez sur la page principale de votre compte, encore vide. Cliquez sur <em>Funding</em> pour ajouter des fonds.</li>
 </ol>
-<img class="aligncenter wp-image-56 size-large" src="http://www.ethereum-france.com/wp-content/uploads/2016/02/Kraken-Nouveau-compte-1024x475.png" alt="Kraken - Nouveau compte" width="660" height="306" />
-
 Le message suivant devrait s'afficher :
 <blockquote>
 <p style="text-align: left;"><em>This action is not available for tier level 0.</em></p>
