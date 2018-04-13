@@ -1,7 +1,7 @@
 ---
 ID: 3246
 post_title: '[ASSETH] Atelier de code: Mon 1er smart contract, 17 avril à Paris'
-author: Simon Polrot
+author: Asseth
 post_excerpt: ""
 layout: post
 permalink: >
